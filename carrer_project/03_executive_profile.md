@@ -39,19 +39,19 @@ More recently, this operational perspective has naturally evolved toward Industr
 
 Alfredo creates business value by integrating four complementary executive capabilities:
 
-* Operational Leadership
+* Operational Leadership:
 
 Leading manufacturing operations focused on productivity, quality, safety and customer service.
 
-* Business Improvement
+* Business Improvement:
 
 Transforming operational challenges into measurable business results through structured analysis, process optimization and financial discipline.
 
-* Organizational Development
+* Organizational Development:
 
 Building autonomous, high-performance teams capable of sustaining continuous improvement initiatives.
 
-* Industrial Digital Transformation
+* Industrial Digital Transformation:
 
 Applying engineering knowledge together with emerging digital technologies to improve industrial decision-making and long-term operational competitiveness.
 
