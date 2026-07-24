@@ -19,7 +19,7 @@ No somos un Ingeniero Mecánico buscando empleo.
 
 Somos un:
 
-Gerente de Manufactura y Operaciones especializado en la transformación de operaciones industriales mediante liderazgo, mejora continua e innovación tecnológica.
+> **Gerente de Manufactura y Operaciones especializado en la transformación de operaciones industriales mediante liderazgo, mejora continua e innovación tecnológica.**
 
 Esta será la idea central de toda la documentación.
 
@@ -27,22 +27,23 @@ Esta será la idea central de toda la documentación.
 
 La propuesta de valor debe responder una única pregunta:
 
-¿Por qué una empresa debería contratar a Alfredo?
+> ¿Por qué una empresa debería contratar a Alfredo?
 
 Respuesta:
 
 Alfredo combina tres capacidades que rara vez se encuentran en un mismo profesional:
 
-Liderazgo de plantas industriales.
-Optimización de procesos y resultados de negocio.
-Visión tecnológica para impulsar la transformación digital de la manufactura.
+- Liderazgo de plantas industriales.
+- Optimización de procesos y resultados de negocio.
+- Visión tecnológica para impulsar la transformación digital de la manufactura.
 
 ## 4. Professional Differentiators
-Operational Leadership
+
+### Operational Leadership
 
 Experiencia liderando producción, mantenimiento, ingeniería y mejora continua en empresas nacionales y multinacionales.
 
-Business Orientation
+### Business Orientation
 
 Capacidad demostrada para convertir iniciativas técnicas en resultados medibles para el negocio:
 
@@ -51,7 +52,8 @@ Capacidad demostrada para convertir iniciativas técnicas en resultados medibles
 - optimización de OEE;
 - proyectos CAPEX;
 - desarrollo organizacional.
-- Industry 4.0 Vision
+
+### Industry 4.0 Vision
 
 Diseño y desarrollo de una plataforma propia de Inteligencia Artificial para monitoreo industrial, mantenimiento predictivo y analítica operacional.
 
