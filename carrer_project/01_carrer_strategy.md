@@ -81,7 +81,8 @@ Este portafolio estará orientado principalmente a las siguientes posiciones:
 - Automatización Industrial.
 - Tecnología Industrial.
 - Industria 4.0.
-7. Executive Narrative
+
+## 7. Executive Narrative
 
 
 La historia profesional seguirá una línea de evolución claramente definida:
@@ -98,8 +99,8 @@ Gerente de Operaciones
 Líder de Transformación Industrial
 ```
 
-8. Core Professional Message
+## 8. Core Professional Message
 
 Toda la documentación deberá transmitir una única idea:
 
-"Transformo operaciones industriales incrementando productividad, reduciendo costos y desarrollando organizaciones preparadas para la Industria 4.0."
+> **"Transformo operaciones industriales incrementando productividad, reduciendo costos y desarrollando organizaciones preparadas para la Industria 4.0."**
