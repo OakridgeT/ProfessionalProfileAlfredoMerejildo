@@ -87,7 +87,7 @@ Este portafolio estará orientado principalmente a las siguientes posiciones:
 
 La historia profesional seguirá una línea de evolución claramente definida:
 
-```txt
+```text
 Supervisor Técnico
 ↓
 Líder de Producción
