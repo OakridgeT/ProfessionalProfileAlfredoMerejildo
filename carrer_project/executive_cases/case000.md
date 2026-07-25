@@ -10,15 +10,17 @@ Year:
 
 ---
 
-1. BUSINESS CONTEXT
+## 1. BUSINESS CONTEXT
 
 ¿Qué estaba ocurriendo en la empresa?
 
 ¿Por qué existía ese problema?
 
+### RESPUESTA
+
 ---
 
-2. INITIAL SITUATION
+## 2. INITIAL SITUATION
 
 ¿Cómo era la situación antes?
 
@@ -26,9 +28,11 @@ Year:
 
 ¿Qué restricciones existían?
 
+### RESPUESTA
+
 ---
 
-3. BUSINESS OBJECTIVE
+## 3. BUSINESS OBJECTIVE
 
 ¿Qué esperaba conseguir la empresa?
 
@@ -36,25 +40,31 @@ Year:
 
 ¿Qué esperabas tú?
 
+### RESPUESTA
+
 ---
 
-4. ROOT CAUSE ANALYSIS
+## 4. ROOT CAUSE ANALYSIS
 
 ¿Cómo analizaste el problema?
 
 ¿Por qué descartaste otras soluciones?
 
+### RESPUESTA
+
 ---
 
-5. EXECUTIVE DECISION
+## 5. EXECUTIVE DECISION
 
 ¿Cuál fue la decisión más importante?
 
 ¿Por qué?
 
+### RESPUESTA
+
 ---
 
-6. IMPLEMENTATION
+## 6. IMPLEMENTATION
 
 ¿Qué hiciste exactamente?
 
@@ -62,9 +72,11 @@ Year:
 
 ¿Qué obstáculos aparecieron?
 
+### RESPUESTA
+
 ---
 
-7. RESULTS
+## 7. RESULTS
 
 Resultados cuantitativos.
 
@@ -72,24 +84,30 @@ Resultados cualitativos.
 
 Resultados inesperados.
 
+### RESPUESTA
+
 ---
 
-8. EXECUTIVE THINKING
+## 8. EXECUTIVE THINKING
 
 ¿Por qué consideras que esta decisión fue correcta?
 
 ¿Qué principio de gestión demuestra?
 
+### RESPUESTA
+
 ---
 
-9. REUSABLE KNOWLEDGE
+## 9. REUSABLE KNOWLEDGE
 
 ¿Qué aprendiste?
 
 ¿En qué otras industrias puede aplicarse?
 
+### RESPUESTA
+
 ---
 
-10. ATS COMPETENCIES
+## 10. ATS COMPETENCIES
 
 (esta parte la construiré yo)
