@@ -12,99 +12,77 @@ Year:
 
 ## 1. BUSINESS CONTEXT
 
-¿Qué estaba ocurriendo en la empresa?
+###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
 
-¿Por qué existía ese problema?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 2. INITIAL SITUATION
 
-¿Cómo era la situación antes?
+### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
 
-¿Qué indicadores eran malos?
-
-¿Qué restricciones existían?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 3. BUSINESS OBJECTIVE
 
-¿Qué esperaba conseguir la empresa?
+### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
 
-¿Qué esperaba tu jefe?
-
-¿Qué esperabas tú?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 4. ROOT CAUSE ANALYSIS
 
-¿Cómo analizaste el problema?
+### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
 
-¿Por qué descartaste otras soluciones?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 5. EXECUTIVE DECISION
 
-¿Cuál fue la decisión más importante?
+### ¿Cuál fue la decisión más importante?. ¿Por qué?
 
-¿Por qué?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 6. IMPLEMENTATION
 
-¿Qué hiciste exactamente?
+### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
 
-¿Cómo convenciste a las personas?
-
-¿Qué obstáculos aparecieron?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 7. RESULTS
 
-Resultados cuantitativos.
+### Resultados cuantitativos.
 
-Resultados cualitativos.
+### Resultados cualitativos.
 
-Resultados inesperados.
+### Resultados inesperados.
 
-### RESPUESTA
+
 
 ---
 
 ## 8. EXECUTIVE THINKING
 
-¿Por qué consideras que esta decisión fue correcta?
+### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
 
-¿Qué principio de gestión demuestra?
-
-### RESPUESTA
+RESPUESTA:
 
 ---
 
 ## 9. REUSABLE KNOWLEDGE
 
-¿Qué aprendiste?
+### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
 
-¿En qué otras industrias puede aplicarse?
 
-### RESPUESTA
 
 ---
 
