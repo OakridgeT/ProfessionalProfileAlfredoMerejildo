@@ -104,6 +104,7 @@ Cuando recibí el area mi cargo, la exigencia de los trabajadores era colocar un
 
 ### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
 
+Se me había entregado la jefatura interina del area de mezclado debido a que el jefe que lo tenía a cargo se vio sobrepasado con la problematica.
 - La empresa a nivel coorporativo consideraba que la mezcladora tenía capacidad teorica para seguir operando en esas condiciones.
 - Mi jefe no tenía mayores expectativas sobre el proceso, solo que se mejore la calidad, se reduzcan las horas extras y los fallos en el proceso.
 - Los trabajadores reclamaban por mejores condiciones de trabajo que estaban enfocadas en una campaña extractora, esa era la conclusion a la que se había llegado con el anterior jefe pero esa solucion hasta ahora no habia sido implementado por las resticciones de espacio del punto de trabajo.
@@ -156,7 +157,8 @@ Este problema era factible de resolver implementando un sistema de izaje de los 
 ### Resultados cuantitativos.
 
 Es dificil de medir el impacto de la calidad del compuesto porque una vez mezclado no es posible analizarlo, sus efectos se ven en la maquinas que lo procesan. No se puede hacer una analisis microscopico de la mezcla, objetivamente la diferencia entre un compuesto bien mezclado y mal mezclado se ven unicamente en la maquinas. Lo que se mide son los tiempos y temperaturas del proceso como una huella que queda impregnada en cada lote.
-Si bien era posible realizar un analisis de causalidad para cuantificar como esta mejora impactaba positivamente en la calidad, este trabajo no lo hice
+Si bien era posible realizar un analisis de causalidad para cuantificar como esta mejora impactaba positivamente en la calidad, este trabajo no lo hice.
+Se redujo el nivel de desabastecimiento y paradas en las linea de inyeccion y extrusion por falta y defectos de material de manera objetiva.
 
 ### Resultados cualitativos.
 
