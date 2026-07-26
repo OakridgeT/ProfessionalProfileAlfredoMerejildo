@@ -8,6 +8,15 @@ Position:
 
 Year:
 
+Priority:
+( Achievement | Executive Case | Signature Executive Case )
+
+Status:
+( Working Draft | Review Candidate | Approved v1.0 )
+
+Estimated Business Impact:
+( Low | Medium | High | Strategic )
+
 ---
 
 ## 1. BUSINESS CONTEXT
