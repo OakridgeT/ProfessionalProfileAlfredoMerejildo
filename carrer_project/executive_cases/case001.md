@@ -1,143 +1,307 @@
-# CASE ID: 001
-
-Working Title:  Strategic Reformulation of PVC Compound Using CaZn Thermal Stabilizers (Aliaxis Perú – Nicoll)
-
-Company: Nicoll 
-
-Position: Jefe de planta de Inyección
-
-Year: 2020
+# CASE_001_CAZN_STANDARDIZATION.md
 
 ---
 
-## 1. BUSINESS CONTEXT
+# Document Information
 
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-Todos los procesos dentro de la empresa están sujetos a un politica de reduccion de costos y deben presentar iniciativas de mejora que aporten a este objetivo.
-En la industria del plastico el PVC tiene la particularidad, debe pasar por un proceso de mezclado donde se agrega entre otros un componente clave que es el estabilizante termico, sin este componente, el PVC no se puede procesar en la maquinas porque se quema a los 80°C aprox, es decir, se quema antes de plastificarse.
-Ademas del estabilizante termico , se le agregan otros componentes para mejorar su capacidad de ser procesado en las maquinas.
-El PVC luego de pasar por el proceso de mezclado se denomina "compuesto de PVC" y cada planta tiene su propia receta, que busca mantener un equilibrio entre el costo y la calidad del compuesto.
-Dentro de la industria de la produccion de tuberias y accesorios (fittings) de PVC se incluye un componente que se considera de relleno, es barato y relativamente compatible con el PVC que es el Carbonato de Calcio (CaCO3), mayores cantidades de CaCO3 hacen mas barata la formula del PVC pero afectan negativamente los siguientes aspectos:
-- capacidad de plastificarse en los tornillos de las maquinas de extrusion e inyeccion de PVC
-- incrementa la friccion entre el material plastificado y las superficies de procesamiento incrementando la temperatura con riesgo de quemar el material, es decir llega a la temperatura de degradacion antes de llegar a la temperatura de plastificación
-- incrementa la abrasion en las superficies de procesamiento (moldes , cabezales) que tienen contacto con el material y les acorta el tiempo de vida a estos componentes
-
+| Field | Value |
+|--------|-------|
+| Project | Executive Career Portfolio |
+| Document | CASE_001_CAZN_STANDARDIZATION.md |
+| Version | 1.0 |
+| Status | Review Candidate |
+| Classification | Signature Executive Case |
+| Company | Aliaxis Perú (Nicoll Perú S.A.) |
 
 ---
 
-## 2. INITIAL SITUATION
+# Executive Summary
 
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
+Led the strategic reformulation of the PVC compound used in the injection manufacturing plant by replacing the traditional lead-based stabilization system with a Calcium-Zinc (CaZn) technology.
 
-Se habia incrementado la cantidad de CaCO3 de 10% a 12.5% en el compuesto, lo cual ya estaba causando problemas de procesamiento en las maquinas, con incremento de producto defectuoso (SCRAP) de 2% respecto al estandar.
-El incremento de CaCO3 no se había compensado con el incremento de estabilizante termico porque eso eliminaba el ahorro pero no se consideraba el incremento en el SCRAP.
-Ya existia la directiva de llevar el porcentaje de CaCO3 al 15%, esto era posible en otras plantas del grupo de otros paises donde se incrementaba el estabilizante termico o se agregaba un plastificante para compensar la perdida de esta propiedad(los plastificantes está prohibidos en el Perú).
-El costo del compuesto de mi planta ya era el mejor de la región bajo nuestras restricciones, a mi criterio el incremento del CaCO3 era un objetivo que no consideraba todo el contexto, estabamos sobre pasando la capacidad del proceso, es decir mas CaCO3 solo iba a ocacionar mas SCRAP y eliminar los ahorros aparentes del incremento de CaCO3.
-Yo entendía esta decision, era conveniente para mi gerencia porque presentaba ahorros por su gestion pero me iba a atribuir el problema del SCRAP a mi gestión.
+Instead of implementing the initially proposed cost-reduction strategy, a complete redesign of the formulation and manufacturing process was developed, achieving annual savings of approximately **USD 120,000**, eliminating heavy metals from the formulation, increasing process robustness and establishing a new production standard that was later transferred to other Aliaxis operations in Latin America.
 
 ---
 
-## 3. BUSINESS OBJECTIVE
+# 1. Business Context
 
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
+Nicoll Perú, part of the Aliaxis Group, was the only injection molding plant supplying PVC fittings for the Peruvian market.
 
-- El Objetivo de la coorporacion era presentar ahorros ante los inversionistas.
-- El objetivo de mi Gerente era demostrar que podia cumplir la meta encargada por los coorporativos y obtener los ahorros objetivos.
-- Mi objetivos objetivos era mejorar la calidad del compuesto porque el incremento de CaCO3 ya estaba presentando:
-* problemas de variabilidad que obligaban a hacer cambios de material durante la operacion realizando actividades sub estandar con riesgo a la seguridad de las personas y la maquinas
-* incremento de Scrap
-* frustacion en los trabajadores
-* defectos de calidad que ocacionan a futuro reclamos de clientes
+The plant:
 
----
+- Produced approximately **180 metric tons per month**.
+- Supplied nearly **30% of the Peruvian PVC fittings market**.
+- Manufactured the complete injection fitting portfolio for the country.
 
-## 4. ROOT CAUSE ANALYSIS
+The corporation had established aggressive annual cost-reduction objectives.
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
+One proposed initiative consisted of increasing the percentage of calcium carbonate in the PVC formulation.
 
-- Era consiente que incrementar el CaCO3 no era sostenible. 
-- Conseguir un estabilizante termico equivalente pero mas barato no fué posible porque las alternativas eran de menor calidad o mas costosos.
-- Hice pruebas modificando los otros componentes sin afectar el costo de la formula pero los resultados era mas caros y no mejoraban la resistencia termica que buscaba.
-- Luego de estas pruebas llegué a la conclusion que el proceso estaba al limite de su capacidad para seguir cumpliendo los requerimientos de costos y de proceso
-- Tenía la referencia de un estabilizante termico que usaba una tecnología de segunda generacion en base a sales de Calcio Zinc (CaZn) era mas economico (a diferencia del que usaba que era de primera generacion basado en Estaño) pero tenía en contraparte que el rango de temperaturas que soportaba era mucho mas corto, es decir el material se quemaba a menos temperatura y resistia menos tiempo de exposicion al calor
-- Se habían realizado pruebas previas de estabilizantes de CaZn en gestiones anteriores a la mia y no habian dado resultado
-- Necesitaba la certeza que este estabilizante CaZn habia funcionado en algún proceso equivalente al mio, para lo cual me entrevisté con un proveedor de alto nivel tecnico que me confirmó que en Brasil (pais en el cual nuestra coorporacion no tenia operaciones) el tenía 2 clientes con plantas mas grandes que la nuestra que usaban este tipo de estabilizante sin problemas.
+Although attractive from a purchasing perspective, this proposal introduced significant technical risks because the manufacturing process was already operating close to its stability limits.
 
 ---
 
-## 5. EXECUTIVE DECISION
+# 2. Initial Situation
 
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
+The existing formulation used lead-based thermal stabilizers.
 
-Decidí elegir como ruta de ahorro el cambio de estabilizante y no el incremento de CaCo3 porque de acuerdo a mi analisis, mi proceso era capaz de adoptar este cambio bajo la condición de mejorar el control de los puntos criticos, es decir necesitaba un proceso mas exacto, corregir etapas y procedimientos.
+The initial corporate proposal focused exclusively on reducing raw material cost by increasing mineral filler concentration.
 
+From an engineering perspective this solution would:
 
----
+- reduce formulation cost;
+- increase process instability;
+- increase reject rates;
+- reduce productivity;
+- compromise long-term process capability.
 
-## 6. IMPLEMENTATION
-
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
-
-###¿ que hice ? ###
-realicé una revision de todas las etapas del proceso :
-* Seleccion de nuevos componentes: no solo cambié el estabilizante, agregué un lubricante nuevo, la calidad y cantidad del CaCO3 reduciendo la dosis y eligiendo un carbonato de mejor calidad y mas caro, 
-* Mezclado: definir el orden exacto de la incorporacion de los ingredientes del compuesto
-* Pre procesado en maquina de pellets: modifiqué el cabezal de extrusion del peletizador para asegurar un flujo uniforme e hice pruebas de parametros hasta obtener un compuesto resistente mas resistente a la temperatura
-* Proceso de inyeccion: modifiqué los parametros de inyeccion de PVC y modifiqué las boquillas de inyeccion y los ingresos a los moldes para mejorar el flujo de plastico y reducir la friccion y degradación del material
-* el proceso de cambio y adecuacion duró aproximadamente 6 meses hasta que se aprobó y certificó el nuevo compuesto.
-
-###¿ como convecí a las personas ? ###
-
-por las pruebas previas realizadas con este tipo de estabilizantes, los supervisores y maquinistas tenian poca confianza en este material, pero con las optimizaciones en el proceso que se estaban realizando los resultados de cada prueba iban mejorando poco a poco en cada prueba, lo cual les dió indicios que el material podía funcionar
-
-###¿ Qué obstáculos aparecieron ? ###
-
-aparecieron todos los obstaculos esperados de un compuesto nuevo, pero cada falla nos daba una oportunidad de mejora que una vez identificada era replicada en las demas maquinas y moldes de inyeccion.
-La transicion entre ambos materiales tenía la particularidad que ambos materiales no eran compatibles, esto tenia que ser considerado al usar el material reprocesado y evitar mezclas.
-En algunos moldes (productos) faciles el material se comportaba bien , en otros la adaptacion fué mas dificil (moldes de productos con canales mas estrechos) pero los supervisores tenian iban haciendo mejoras con los parametros y cada vez habían menos productos que necesitaban el compuesto antiguo
-
-###¿ que areas se vieron afectadas ? ###
-
-El proyecto no se terminaba con la obtencion del producto conforme, era necesario avisar al area logistica con anticipacion sobre el cambio para que sus compras y sus stocks de materias primas que se hacían con meses de anticipacion estén alienados con el cambio, el riesgo era grande porque si el proyecto no funcionaba podia quedar sin stock de materiales para el compuesto y si el proyecto salia adelante pero había mucho stock de estabilizante termico antiguo , estaba obligado a consumirlo porque no se podia dar de baja y esto iba a postergar el ahorro. Se hicieron los calculos correctos y se entregó el requerimiento de materias primas nuevas para que sean compradas y se indicó cuanto de materia prima antigua (estabilizante) se necesitaba hasta antes del cambio.
-
-Se coordinó con el area de control de calidad en todas las pruebas para su validacion, asi como con el area de mezclado de materiales
-
-Por mi parte dirigí el area de mantenimiento y modificacion de maquinas y moldes que eran areas que estban a mi cargo ademas del area de produccion.
-
-
+The proposal optimized one variable while degrading the overall manufacturing system.
 
 ---
 
-## 7. RESULTS
+# 3. Business Objective
 
-### Resultados cuantitativos. 
-reduccion de costo del compuesto con ahorros auditados de 10K USD mensuales sin afectar la calidad del producto
+Corporate objective:
 
-### Resultados cualitativos.
-mejora en el clima laboral por la reduccion de variabilidad del compuesto, los maquinistas y supervisores trabajaban con menos presión, ya no tenían que cambair de compuesto durante el proceso
+Reduce manufacturing cost.
 
-### Resultados inesperados.
-El ahorro real superó al planeado debido a que el nuevo estabilizante ademas de tener un menor costo en la formula tenía tambien mas volumen, por lo que tenía un compuesto de menor densidad (se redujo el CaCO3 del 10% a 5%), es decir podía producir mas productos con una tonelada de material (los productos inyectados de plastico se inyectan en un volumen o molde que les da la forma)
+Plant objective:
 
----
+Reduce total production cost without sacrificing productivity, quality or process stability.
 
-## 8. EXECUTIVE THINKING
+Personal objective:
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
-
-La decision fue correcta porque estuvo basada en un criterio tecnico y una evaluacion correcta del proceso, se identificaron los factores de influencia y se valoraron, evalué mis recursos disponibles y llegué a la conclusión que era posible con una probabilidad de fracaso muy baja.
+Develop a technically sustainable solution capable of generating permanent competitive advantage instead of temporary savings.
 
 ---
 
-## 9. REUSABLE KNOWLEDGE
+# 4. Root Cause Analysis
 
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
+Instead of accepting the original proposal, the manufacturing process was analyzed as an integrated engineering system.
 
-Aprendí que un objetivo se puede cumplir usando diferentes caminos, los que digimos los procesos somos los encargados de elegir el camino. A veces el camino que nos piden seguir está mas influenciado por obtener resultados inmediatos pero no consideran todos los impactos sobre el proceso, la comprension profunda de un proceso nos da mas herramientas de decision.
+The analysis concluded that the real opportunity was not increasing calcium carbonate content but redesigning the thermal stabilization strategy.
+
+A complete evaluation was performed considering:
+
+- thermal stability;
+- processability;
+- lubrication balance;
+- extrusion behavior;
+- injection performance;
+- long-term production robustness.
+
+This systems approach identified a higher-impact opportunity than the one initially proposed.
 
 ---
 
-## 10. ATS COMPETENCES
+# 5. Executive Decision
 
-(esta parte la construiré yo)
+The strategic decision was to reject the original cost-reduction proposal and redesign the complete stabilization system using Calcium-Zinc (CaZn) technology.
+
+Although technically more complex, this alternative provided:
+
+- sustainable cost reduction;
+- elimination of heavy metals;
+- improved environmental performance;
+- greater process robustness;
+- future optimization capability.
+
+The decision prioritized long-term operational performance over immediate material cost reduction.
+
+---
+
+# 6. Stakeholder Management
+
+Successful implementation required coordination across multiple organizational functions.
+
+Internal stakeholders included:
+
+- Production
+- Quality Assurance
+- Maintenance
+- Purchasing
+- Manufacturing Engineering
+
+External stakeholders included:
+
+- Raw material suppliers
+- Technical specialists
+- Corporate management
+
+Quality Assurance validated regulatory compliance and documented all qualification trials to ensure conformity with applicable Peruvian technical standards.
+
+Corporate management later audited the financial results of the project.
+
+---
+
+# 7. Implementation
+
+The project required redesigning the complete manufacturing process rather than simply changing one raw material.
+
+Activities included:
+
+- development of new PVC formulations;
+- supplier collaboration;
+- laboratory validation;
+- industrial production trials;
+- optimization of processing parameters;
+- adjustment of lubrication balance;
+- optimization of tooling conditions;
+- production validation;
+- quality qualification;
+- operator training;
+- controlled transition to production.
+
+The implementation demanded multiple iterative engineering cycles until a stable industrial process was achieved.
+
+---
+
+# 8. Business Results
+
+## Financial Results
+
+- Approximately **USD 120,000 annual savings**.
+- Permanent reduction in formulation cost.
+- Corporate financial savings audited and validated.
+
+## Operational Results
+
+- Improved process stability.
+- Increased manufacturing robustness.
+- Elimination of lead-based stabilizers.
+- Standardization of the new production process.
+
+## Environmental Results
+
+- Heavy metals eliminated from the formulation.
+- Cleaner manufacturing process.
+- Improved sustainability.
+
+---
+
+# 9. Executive Impact
+
+The project exceeded the scope of a local process improvement.
+
+The new formulation became the official production standard for the injection plant.
+
+Returning to the previous formulation would have represented a permanent increase in manufacturing cost.
+
+The project demonstrated that engineering-driven innovation could simultaneously improve financial performance, operational capability and environmental sustainability.
+
+---
+
+# 10. Legacy & Knowledge Transfer
+
+The project generated organizational knowledge beyond the local operation.
+
+Achievements included:
+
+- adoption as the official plant standard;
+- transfer of technical knowledge to the Aliaxis Chile operation;
+- subsequent request from Aliaxis Costa Rica headquarters to evaluate implementation after corporate cost audits identified the economic impact achieved in Peru.
+
+This demonstrated the scalability and transferability of the engineering solution.
+
+---
+
+# 11. Executive Thinking
+
+The most important decision of the project was not technical.
+
+It was strategic.
+
+Rather than optimizing an isolated cost variable, the manufacturing system was evaluated as an integrated operational process.
+
+The project demonstrated that sustainable competitiveness is achieved by redesigning systems instead of optimizing individual parameters.
+
+This engineering philosophy has remained a defining characteristic of Alfredo Merejildo's leadership approach throughout his professional career.
+
+---
+
+# 12. Competencies Demonstrated
+
+- Systems Thinking
+- Executive Decision Making
+- Manufacturing Engineering
+- Process Engineering
+- Cost Optimization
+- Supplier Development
+- Technology Transfer
+- Change Leadership
+- Operational Excellence
+- Sustainability
+- Financial Impact Analysis
+- Cross-functional Leadership
+
+---
+
+# 13. Transferable Executive Knowledge
+
+This case demonstrates how engineering-based decision making can transform operational constraints into long-term competitive advantages.
+
+The methodology is transferable to any manufacturing environment where productivity, cost, quality and operational stability must be simultaneously optimized.
+
+---
+
+# 14. ATS Executive Keywords
+
+Manufacturing Leadership
+
+Process Engineering
+
+PVC Manufacturing
+
+Injection Molding
+
+Cost Reduction
+
+Operational Excellence
+
+Manufacturing Engineering
+
+Lean Manufacturing
+
+Supplier Development
+
+Technology Transfer
+
+Industrial Innovation
+
+Continuous Improvement
+
+Cross-functional Leadership
+
+Sustainability
+
+Industrial Transformation
+
+---
+
+# 15. STAR Interview Summary
+
+**Situation**
+
+Corporate cost-reduction initiatives proposed increasing calcium carbonate content in the PVC formulation.
+
+**Task**
+
+Reduce manufacturing cost while maintaining product quality and process stability.
+
+**Action**
+
+Rejected the short-term approach, redesigned the stabilization system using Calcium-Zinc technology, coordinated suppliers, validated the process and implemented a new production standard.
+
+**Result**
+
+Achieved approximately **USD 120,000** in annual savings, eliminated lead-based stabilizers, established the new plant standard, transferred knowledge to another Aliaxis operation and generated interest from corporate headquarters for broader implementation.
+
+---
+
+# 16. Executive CV Version
+
+Led the strategic redesign of PVC compound formulation, replacing lead-based stabilization with Calcium-Zinc technology. Achieved approximately **USD 120K/year** in validated savings, established the new production standard, transferred the solution to another Aliaxis operation and enabled future corporate replication.
+
+---
+
+# End of Document
