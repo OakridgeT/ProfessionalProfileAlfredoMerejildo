@@ -1,133 +1,211 @@
-# CASE ID:
-
-Working Title: Sustitución de metodo de limpieza de piezas de bombas de limpieza mecanica con amoladora a lavado con sistema de agua a presion
-
-Company: Geohidraulica
-
-Position: Jefe de produccion y mantenimiento
-
-Year: 2021
-
-Priority:
-( Achievement | Executive Case | Signature Executive Case )
-
-Status:
-( Working Draft | Review Candidate | Approved v1.0 )
-
-Estimated Business Impact:
-( Low | Medium | High | Strategic )
-
----
-## 0. CONTEXTO DEL PROCESO
-
-Semanalmente llegaban al taller de Geohidraulica 60 bombas de diferentes potencias y tamaños , las cuales habian estado trabando en las unidades mineras y debian ser reparadas.
-El proceso de reparacion iniciaba con el desmontaje, revision , limpieza de piezas re usables, montaje de bomba con las piezas en buen estado y reemplazando las piezas malogradas.
-Las piezas que habitualmente tenian que limpiarse eran las que formaban la capa exterior de las bombas.
-Las piezas pesaban entre 10 y 30 kilos, cada bomba podia hasta 4 pizas que requerian limpieza.
-El metodos de limpieza era usando una amoladora con disco tipo escobilla. La suciedad inpregnada era principalmente barro duro, carbonato de calcio y oxido en menor medida.
-
-
-## 1. BUSINESS CONTEXT
-
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-El puesto de trabajo de limpieza de piezas con el metodo y las condiciones existentes era un peligro constante que exponia a los trabajadores a lesiones , ademas de contaminar el ambiente de la planta por que la polucion no podia ser contenida de manera eficiente.
+# CASE-005
 
 ---
 
-## 2. INITIAL SITUATION
+# Document Information
 
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
-
-El trabajo generaba mucha polución porque se tenia que hacer en seco.
-Se requeria EPP especial y respiradores de filtro. Manipular las piezas era pesado, las forma de las piezas era irregular, subir las piezas a una mesa de trabajo era peligroso y agacharse con una amoladora era anti ergonomico.
-Debido a la polución , el trabajo debia hacerse en un ambiente cerrado el cual tenia un sistema de aspiracion de polvos pero sin la potencia necesaria.
-Trabajar con herramientas rotatorias, con calor, alta polucion, espacio reducido y de dificil acceso era peligroso para el personal y se registraban incidentes y accidentes , pero se tenía la limitacion de espacio.
-
-
----
-
-## 3. BUSINESS OBJECTIVE
-
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
-
-El area de seguridad industrial auditaba los procesos y se mantenian los reportes de actos y condiciones inseguras en esta area.
-Cada reporte originaba una accion correctiva que debia ser ejecutada por el area de produccion.
-Las acciones propuestas eran basadas en las quejas de los trabajadores como : contruir mesas elevadoras para levantar y mover las piezas, corregir el sistema de aspiracion de polvo, pausas de hidratacion y descanso, reportes por herramientas en mal estado, mas personal para reducir la carga de trabajo.
-Yo queria reducir el problema de raiz y no ejecutar acciones propuestas que a corto plazo solo iban a generar mas trabajo con poco inpacto en la solucion del problema.
+| Field | Value |
+|--------|-------|
+| Case ID | CASE-005 |
+| Working Title | Process Redesign for Safe High-Pressure Cleaning of Mining Pump Components |
+| Company | Consorcio Geohidráulica S.A.C. |
+| Position | Production & Maintenance Manager |
+| Year | 2021 |
+| Classification | Executive Case |
+| Estimated Business Impact | High |
+| Status | Approved v1.0 |
 
 ---
 
-## 4. ROOT CAUSE ANALYSIS
+# Executive Summary
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
+The pump maintenance workshop relied on mechanical grinding using rotary wire brushes to clean reusable pump components returning from underground mining operations.
 
-Las exigencias del proceso, las restricciones de planta y el metodo de trabajo eran incompatibles
-Era consiente que en la medida que la restriccion de planta en cuando a espacios y areas de trabajo no cambiara, solo se podía adoptar medidas momentaneas.
+The process exposed operators to multiple simultaneous hazards, including rotating machinery, airborne particulate matter, heat, poor ergonomics, confined workspaces, and repetitive manual handling. Although numerous corrective actions had been proposed, all focused on mitigating individual risks rather than addressing the underlying cause.
 
+Instead of improving the existing process, I redesigned it completely by replacing mechanical cleaning with a high-pressure water cleaning system.
 
-
----
-
-## 5. EXECUTIVE DECISION
-
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
-
-Cuando la empresa logró alquilar un terreno contiguo a nuestra planta, opté por realizar pruebas para un cambio de metodo de limpieza.
-
-Era consiente que el metodo de trabajo era insostenible porque ocacionaba condiciones extremas para los trabajadores.
+The new process permanently eliminated the use of grinders, removed the primary hazards, reduced cleaning time by approximately 30%, significantly improved operator ergonomics, eliminated dust generation throughout the workshop, and became the permanent cleaning standard for the company.
 
 ---
 
-## 6. IMPLEMENTATION
+# 1. Business Context
 
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
+Approximately sixty mining pumps returned weekly from underground operations for complete refurbishment.
 
-Busque proveedores junto al area de logistica de hidro lavadoras de alta presion para sustituir las amoladoras por el lavado con agua a presion.
-Se habian realizado pruebas en la gestión de otros jefes y los resultados no fueron satisfactorios.
-Adapté una zona que tenia canaletas de agua para recoger el agua de lavado , dentro de estas canaletas puse separadores para estancar el agua y sedimentar la tierra.
-Implementé un pequeño tanque de agua que asegure abastecimiento constante.
-Conseguí un modelo de hidrolavadora profesional de la mas alta potencia, selecionamos la boquilla adecuada y los resultados fueron satisfactorios. ya no era necesario usar amoladoras para la limpieza de las piezas.
+Each pump required:
 
+- Disassembly.
+- Inspection.
+- Cleaning of reusable components.
+- Replacement of damaged parts.
+- Final assembly and testing.
 
----
+The external components of each pump accumulated hardened mud, calcium carbonate deposits, and oxidation after prolonged operation in underground mining environments.
 
-## 7. RESULTS
-
-### Resultados cuantitativos.
-
-Eliminacíon de la polucion del proceso
-Eliminacion de riesgo de herramientas rotatorias en este proceso
-Eliminación de condiciones anti ergonomicas para acceder a los rincones de las piezas porque ahora se usa una pistola de agua de alta presion que no requiere esfuerzo por parte del trabajador, solo direccion
-Eliminacion de condiciones de calor extremo y fatiga fisica 
-Reduccion del tiempo de proceso de limpieza.
-
-### Resultados cualitativos.
-
-Las piezas presentaban similar o mejor nivel de limpieza que con el metodo de limpieza por amoladoras (friccion)
-
-### Resultados inesperados.
-
-Dentro del proceso teniamos un grupo electrogeno y maquinas CNC , la reduccion de polucion tuvo un impacto positivos en ambos que son afectados negativamente por el polvo.
+The cleaning process represented the first major operation before inspection and repair.
 
 ---
 
-## 8. EXECUTIVE THINKING
+# 2. Initial Situation
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
+The existing cleaning process required operators to manually remove deposits using handheld angle grinders equipped with rotary wire brushes.
 
-Considero que evaluar las restricciones, el metodo y el requerimiento y llegar a la conclusion que rean incompatibles me forzó a mirar opciones que en eso momento no eran viables pero ya estaban preparadas y afortunadamente se pudieron poner en practica para el bienestar de los trabajadores.
+This generated multiple operational risks simultaneously:
+
+- High airborne dust concentration.
+- Continuous exposure to rotating power tools.
+- Heat generation.
+- Heavy manual handling of components weighing between 10 and 30 kg.
+- Awkward working postures.
+- Limited workspace.
+- High physical fatigue.
+
+Because of the large amount of dust generated, cleaning had to be performed inside an enclosed room equipped with an extraction system whose capacity was insufficient.
+
+The Safety Department continuously reported unsafe conditions and unsafe acts associated with this operation.
+
+Corrective actions proposed over time included:
+
+- Lifting tables.
+- Improved dust extraction.
+- Additional personnel.
+- Hydration breaks.
+- Tool replacement.
+- Administrative safety controls.
+
+Although these actions reduced individual risks, none addressed the fundamental problem created by the cleaning method itself.
 
 ---
 
-## 9. REUSABLE KNOWLEDGE
+# 3. Business Objective
 
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
+The organization expected Production to close the corrective actions generated through safety inspections.
 
-Apredí que no podemos descartar una solucion si antes no se ha explorado a fondo.
+My objective was different.
+
+Rather than implementing multiple temporary corrective actions, I wanted to eliminate the root cause by replacing the cleaning method entirely.
 
 ---
 
-## 10. ATS COMPETENCIES
+# 4. Root Cause Analysis
 
-(esta parte la construiré yo)
+After analyzing the operation, I concluded that the process requirements, plant restrictions, and cleaning method were fundamentally incompatible.
+
+As long as mechanical grinding remained the cleaning technique, the operation would always require numerous compensating controls to maintain acceptable safety conditions.
+
+The real problem was not operator behavior.
+
+The problem was the process design itself.
+
+Although I had already identified high-pressure water cleaning as a possible solution, the available plant layout made its implementation impractical because there was no suitable area for handling water and sediment.
+
+I therefore postponed implementation until the necessary infrastructure became available.
+
+---
+
+# 5. Executive Decision
+
+When the company leased an adjacent facility and expanded the workshop, I immediately implemented the alternative process that had previously been technically infeasible.
+
+Rather than improving the existing grinding operation, I decided to eliminate it.
+
+The selected solution consisted of replacing mechanical grinding with industrial high-pressure water cleaning.
+
+To maximize cleaning performance, I selected a professional 300-bar pressure washer that had to be imported because equipment with similar performance was not commercially available in Peru.
+
+The cleaning system was completed with high-performance spray guns and nozzles specifically selected after evaluating different operating configurations.
+
+---
+
+# 6. Implementation
+
+A dedicated cleaning area was established within the new facility using an existing drainage system originally designed to manage industrial water spills.
+
+The implementation included:
+
+- Installation of a high-pressure water cleaning station.
+- Dedicated water storage to guarantee continuous operation.
+- Use of sedimentation channels to separate mud before water discharge.
+- Definition of periodic sediment removal procedures for workshop supervisors.
+- Selection of optimized cleaning nozzles.
+- Validation of cleaning quality compared with the previous mechanical process.
+
+Previous attempts by the company to introduce water cleaning had failed, most likely because they relied on conventional commercial equipment.
+
+By selecting industrial-grade equipment with significantly higher pressure and optimizing the cleaning configuration, the new process achieved cleaning performance equal to or better than the mechanical method.
+
+The final process completely eliminated the need for grinders.
+
+---
+
+# 7. Business Results
+
+## Quantitative Results
+
+- Permanent elimination of mechanical grinding for component cleaning.
+- Approximately 30% reduction in cleaning time.
+- Elimination of airborne dust generated by the process.
+- Elimination of rotating-tool hazards during cleaning.
+- Elimination of heat exposure associated with grinding.
+- Significant reduction in physical effort and operator fatigue.
+- Elimination of pending safety corrective actions associated with this process.
+- Removal of multiple recurring unsafe-condition reports.
+
+## Qualitative Results
+
+Cleaning quality matched or exceeded the previous grinding method.
+
+Operators immediately perceived a dramatic reduction in physical effort, making the process safer, cleaner, and substantially more comfortable to perform.
+
+Respirators with replaceable filters were no longer required, being replaced by simpler respiratory protection appropriate for the new environment, while waterproof protective clothing and rubber boots became the primary personal protective equipment.
+
+## Unexpected Results
+
+The elimination of dust contamination produced additional operational benefits beyond the cleaning area.
+
+Nearby CNC machines and the standby generator experienced cleaner operating conditions due to the significant reduction in airborne particulate matter throughout the workshop.
+
+---
+
+# 8. Executive Impact
+
+This project fundamentally changed the organization's approach to risk reduction.
+
+Instead of investing continuously in mitigating hazards generated by an inherently unsafe process, the company permanently removed the principal hazard through process redesign.
+
+The new cleaning methodology became the standard operating procedure and remains the permanent cleaning method for pump refurbishment operations.
+
+---
+
+# 9. Executive Thinking
+
+This project reinforced one of my strongest engineering principles:
+
+**When a process requires an excessive number of safety controls to operate acceptably, the problem usually lies in the process design rather than in the people performing the work.**
+
+Engineering should not focus solely on protecting workers from hazardous processes.
+
+Whenever possible, engineering should eliminate the hazard by redesigning the process itself.
+
+An equally important lesson was recognizing that good engineering solutions sometimes require waiting for the right operational conditions to become feasible.
+
+Having the solution concept prepared before the opportunity appeared allowed immediate implementation once the plant expansion removed the infrastructure constraints.
+
+---
+
+# 10. Transferable Executive Knowledge
+
+Safety improvements generate the greatest long-term value when they eliminate hazards rather than merely controlling them.
+
+Organizations frequently invest significant effort in administrative controls, personal protective equipment, and procedural improvements while leaving the underlying process unchanged.
+
+Applying the hierarchy of controls from an engineering perspective often produces solutions that simultaneously improve safety, productivity, ergonomics, equipment reliability, and environmental conditions.
+
+This philosophy can be applied across manufacturing, mining, maintenance, logistics, construction, and any industrial environment where operational risks originate from process design rather than operator behavior.
+
+---
+
+# 11. ATS Competencies
+
+*To be developed as part of the Executive Career Portfolio competency mapping.*
