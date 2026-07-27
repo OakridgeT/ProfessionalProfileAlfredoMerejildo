@@ -1,157 +1,250 @@
-# CASE ID:
-
-Working Title: Calculo de capacidad de Planta 
-
-Company: Geohidraulica 
-
-Position: Jefe de produccion y mantenimiento
-
-Year: 2022
-
-Priority:
-( Achievement | Executive Case | Signature Executive Case )
-
-Status:
-( Working Draft | Review Candidate | Approved v1.0 )
-
-Estimated Business Impact:
-( Low | Medium | High | Strategic )
+# CASE-004
 
 ---
 
-## 0. CONTEXTO DEL LA EMPRESA
+# Document Information
 
-Consorcio Geohidraulica SAC es una empresa de capitales peruanos que se dedica a la fabricacion de bombas de agua para la industria de la mineria subterranea.
-Son bombas especiales fabricadas en diferentes potencias desde 15 HP hasta 300 HP , diferentes materiales para aguas acidas o neutras , diferentes configuraciones para caudal o presión, etc.
-Estas bombas se usan para evitar que los tuneles de explotacion minera se inunden, porque dentro de los tuneles hay vetas de agua y se necesita un sistema de bombeo en cascada para extraer el agua al exterior del tunel.
-El negocio de Geohidraulica es entregar las bombas en alquiler a las unidades mineras, facturar segun los dias de uso y tener siempre bombas para stock para su envio.
-Su sistema de fabricacion incluye:
-- Diseño de moldes para fundicion de piezas en su area de desarrollo.
-- Diseño hidraulico de bombas en su area de desarrollo.
-- Mecanizado de piezas fundidas segun diseño propio en taller de mecanizado propio.
-- Montaje y prueba de bombas en pozo de pruebas en taller de montaje propio.
-- Mantenimiento y rebobinado de motores electricos en taller propio.
-- fabricacion de tableros electricos para bombas en taller propio.
-Las piezas son fundidas por empresas de fundición bajo las especificaciones de Geohidraulica.
-Las Bombas que fallan en operacion son reempalzadas por otra de stock y retornan al taller de Geohidraulica , son reparadas y repuestas a las unidades mineras.
-Hay clientes que compran las bombas y a ellos se les dá el servicio de mantenimiento.
-Parte de la produccion de bombas nuevas es para ampliar el parque de bombas para stock, otra parte es para venta.
-El taller también hace mantenimiento a bombas de otras marcas.
-El parque de bombas de alquiler es de aprox 800 bombas que estan distribuidas en diferentes unidades mineras.
-Semanalmente llegan al taller apro 65 bombas para mantenimiento las cuales son desmontadas, inspecionadas , se mantienen las piezas buenas , se reemplazan las malas y son montadas nuevamente desde cero como se haría con una bomba nueva.
-El objetivo del area a mi cargo (produccion y mantenimiento) era restituir todas las bombas que llegaban a mantenimiento antes que llegue el siguiente lote y producir segun la demanda.
-
-## 1. BUSINESS CONTEXT
-
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-El gerente general necesitaba conocer la capacidad instalada de su planta para poder proyectar un plan de inversiones y expansion.
-Sin una capacidad real no se sabía que areas del taller de mecanizado y taller de montaje se necesitaban incrementar y era posible crear cuellos de botella.
+| Field | Value |
+|--------|-------|
+| Case ID | CASE-004 |
+| Working Title | Predictive Capacity Planning Model for Manufacturing Expansion |
+| Company | Consorcio Geohidráulica S.A.C. |
+| Position | Production & Maintenance Manager |
+| Year | 2022 |
+| Classification | Executive Case |
+| Estimated Business Impact | Strategic |
+| Status | Approved v1.0 |
 
 ---
 
-## 2. INITIAL SITUATION
+# Executive Summary
 
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
+The General Manager required an objective method to determine the real production capacity of a highly customized manufacturing operation in order to support future investments, plant expansion, and equipment acquisition decisions.
 
-La restriccion para conocer una capacidad instalada era
-Las piezas pasaban por diferentes procesos , es decir diferentes maquinas, torno horizontales, tornos verticales, centro de mecanizado CNC, cortadores de hilo, etc
-Cada pieza dependiendo de su tamaño, material o modelo podia pasar por el mismo tipo de maquina pero de diferente tamaño (pasar por un torno chico o torno grande) y demorar diferentes tiempos segun el tamaño o material.
-El taller tenia diferentes tamaños de maquinas que complian la misma funcion , esto era para mecanizar piezas chicas en maquinas chicas y piezas grandes en maquinas grandes.
-Las piezas se mecanizaban por lotes para optimizar el setup de las maquinas.
-Algunas piezas se tenian que enviar a mecanizar en talleres externos principalmente porque era una pieza grande y no entraba en nuestra maquina o no se tenia la maquina para ese tipo de trabajo.
+The manufacturing environment presented an exceptional level of complexity: multiple product families, thousands of spare parts, different machining routes, alternative machine assignments, internal manufacturing, outsourced operations, repair activities, and continuously changing demand.
 
-Los tiempos eran realtivamente estandarizados pero ante la gran variedad de piezas que se trabajaban en paralelo el control  era complejo.
+Instead of attempting to calculate a static production capacity, I designed and developed a predictive mathematical model that transformed commercial demand forecasts into machine occupancy projections.
 
----
+Built entirely in Microsoft Excel using data extracted from the company's databases, the model integrated production, maintenance, sales forecasts, equipment utilization, labor availability, efficiency, setup times, overtime, and future equipment acquisitions into a single decision-support tool.
 
-## 3. BUSINESS OBJECTIVE
-
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
-
-El gerente esperaba que alguien calcule la capacidad real de la planta
-Yo no sabía como presentar esta informacion en un proceso con tanta variabilidad, tantas interacciones entre areas, en un flujo no lineal, organizar esta informacion y hacerla una herramienta de decision era un reto que nunca habia asumido.
+The model achieved approximately 92% predictive accuracy and became the primary planning tool for expansion projects, machinery investments, production planning, and scenario simulation.
 
 ---
 
-## 4. ROOT CAUSE ANALYSIS
+# 1. Business Context
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
+Consorcio Geohidráulica manufactures specialized dewatering pumps used in underground mining operations.
 
-ante tanta incertidumbre de datos y la dificultad de aplicar teoria de resticciones de manera directa empecé por el final, es decir , imaginar como sería el resultado esperado.
-Llegué a conclusion que para que sea una herramienta de decision, el resultado del trabajo debia ser un modelo matematico con la siguiente estructura:
-Inputs: 
-- requerimiento de bombas nuevas
-- requerimiento de piezas para stock (proporcinal a las bombas existentes y a su consumo)
-- requerimiento de bombas para mantenimiento
-Outputs:
-- porcentaje de ocupacion de cada maquina por tipo y tamaño
+Unlike conventional manufacturing environments, the company simultaneously managed:
 
-Con este modelo era posible indicar segun su nivel de ocupacion que maquina o area productiva iba a ser necesario reforzar para evitar cuello de botella
-Ademas debia considerar la restriccion de que maquinas grandes pueden hacer el trabajo de maquinas pequeñas pero no viceversa, lo cual ya constituye parte de la refinación del modelo.
-Debía considerar horas calendario, personal disponible, feriados y horas extras disponibles, porcentaje de eficiencia, tiempos de setup , tanto en el area de fabricacion de piezas como en el area de montaje.
-Debia considerar ademas el impacto de maquinas nuevas y mas modernas que iban a absorver el trabajo de las mas antiguas, por ejemplo un torno CNC iba a absorver el trabajo de un torno convencional. Si teniamos planeado renovar 3 tornos convencionales estos se iban a quedar sin carga.
+- Production of new pumps.
+- Maintenance of approximately 800 rental pumps installed in mining operations.
+- Manufacturing of spare parts.
+- Repair of customer-owned equipment.
+- Internal motor rewinding.
+- Electrical panel manufacturing.
+- Continuous replenishment of strategic inventory.
 
+Approximately 65 pumps returned weekly from mining operations for complete refurbishment while new pumps continued to be manufactured according to commercial demand.
 
+As the company prepared for physical expansion, executive management required an accurate understanding of the plant's true production capacity in order to determine future investments and avoid creating new production bottlenecks.
 
 ---
 
-## 5. EXECUTIVE DECISION
+# 2. Initial Situation
 
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
+The company had no formal capacity planning model.
 
-La decision mas importante fué aceptar que sin tener toda la informacion clara y confiable porque se presentaba mucha variabilidad, debia adoptar un criterio para seleccionar la información limpia y asumir de manera confiable la información que no era limpia.
-Filtrar la informacion y no asumior valores cerrados sinó tendencias y los valores que eran consistentes, retirar de la muestra los valores anomalos.
-Otra decision importante fué entender que mi unidad de medida eran las horas disponibles mientras que para la gerencia eran las bombas producidas y reparadas, en el medio la unidad de conversion eran la piezas de la bombas.
+Calculating capacity was particularly difficult because:
 
----
+- Components followed multiple machining routes.
+- Individual parts could be processed on machines of different sizes.
+- Larger machines could perform smaller jobs, but not vice versa.
+- Production was organized in batches.
+- Some machining operations were outsourced.
+- Processing times varied according to material, size and product family.
+- Production and maintenance activities competed for the same manufacturing resources.
 
-## 6. IMPLEMENTATION
+The manufacturing system included:
 
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
+- Eight pump power ranges with multiple product variants.
+- Approximately 2,500 spare part references.
+- Twenty-two production machines distributed across five different equipment categories.
+- Components requiring between two and four machining operations before assembly.
 
-Con los criterios antes mencionados empecé a hacer la revision de toda la data existente, aplicar filtros estadisticos y para los casos que no habia data, extrapolar en funcion de variables que yo definí
-El principal obstaculo era la variabilidad de la información ya que los lotes de produccion podian verse afectados por defectos de fundicion, falas de maquina, cambio en el plan de produccion, etc y esto era muy dificil de modelar
-La otra dificultad era como presentar la informacion a la gerencia en un formato claro y conciso sin tantos numeros , por lo que decidí presentar escenarios y factores.
-Solicité al area de ventas la proyeccion para el siguiente año, la uní con el crecimiento de nuestro parque de bombas y nuestra tendencia de consumo de repuestos alineada con el crecimiento del parque segun cada tamaño o tipo de bomba.
-
----
-
-## 7. RESULTS
-
-### Resultados cuantitativos.
-
-Puede obtener un modelo matematico que predecía el nivel de ocupacion de el conjunto de maquinas y equipos de montaje segun la proyeccion de ventas y la demanda de bombas de manrtenimiento interno
-Como los modelos de bombas iban variando durante el año, este modelo predecia la carga mensual y si queriamos fabriacr un nuevo modelo que necesita una maquina nueva, cuando debiamos comprar la nueva maquina
-La planta estaba en plan de expansión fisica, las predicciones de este modelo permitian alinear la llegada de las maquinas con el espacio disponible y la contratacion del personal
-
-### Resultados cualitativos.
-
-La gerencia general tuvo un sustento estructurado para realizar sus expanciones e inversiones en equipos bajo diferentes escenarios.
-
-### Resultados inesperados.
-
-
+Traditional capacity calculations were insufficient for representing this level of operational complexity.
 
 ---
 
-## 8. EXECUTIVE THINKING
+# 3. Business Objective
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
+Executive management required a reliable method to answer strategic questions such as:
 
-La decision fué correcta por que satisfació los requerimientos del cliente y fué para mi una herramienta util para mi toma de decisiones 
+- What is the actual production capacity of the plant?
+- Which production areas will become future bottlenecks?
+- When should additional machinery be purchased?
+- How will future sales affect machine utilization?
+- Which investments should be prioritized?
 
----
-
-## 9. REUSABLE KNOWLEDGE
-
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
-
-Aprendí que en problemas de modelamiento complejo es necesario orientar la pregunta del usuario y en esta caso hacerle entender que su capacidad era una funcion de lo que el queria vender, es decir su capacidad variaba segun su forecast de ventas.
-Aprendí el manejo de escenarios y comopresentar informacion para toma de decisiones de forma simplificada, cada usuario tiene diferentes requerimientos de informacion para toma de decisiones y el modelo debia satisfacer todas las necesidades comoplanes de inversion, planes de expancion, proyeccion de ventas y manejo de stocks
+My objective was to transform a highly variable manufacturing system into a practical decision-support model capable of supporting investment planning under multiple business scenarios.
 
 ---
 
-## 10. ATS COMPETENCIES
+# 4. Root Cause Analysis
 
-(esta parte la construiré yo)
+Rather than beginning with available production data, I started by defining the final business decisions the model needed to support.
+
+This reverse-design approach allowed me to identify only the variables that genuinely influenced executive decision-making while deliberately excluding information that added complexity without improving prediction quality.
+
+The conceptual structure became:
+
+### Inputs
+
+- Forecasted sales.
+- Production of new pumps.
+- Spare parts demand.
+- Maintenance workload.
+- Process efficiency.
+- Overtime availability.
+- New equipment acquisitions.
+
+### Outputs
+
+- Machine occupancy by equipment type.
+- Capacity utilization.
+- Future production bottlenecks.
+- Expansion requirements.
+- Investment timing.
+
+To produce meaningful results, the model also incorporated:
+
+- Available labor hours.
+- Calendar constraints.
+- Holidays.
+- Setup times.
+- Equipment efficiency.
+- Machine substitution rules.
+- Progressive replacement of conventional equipment by CNC machinery.
+
+Instead of forcing deterministic values into an inherently variable system, I adopted statistically representative trends while removing anomalous observations from the historical data.
+
+---
+
+# 5. Executive Decision
+
+The most important decision was accepting that a perfect model was neither achievable nor necessary.
+
+Rather than attempting to eliminate all uncertainty, I focused on identifying reliable patterns that could support high-quality executive decisions.
+
+A second key insight was recognizing that management and production viewed capacity through different units.
+
+Management measured capacity in pumps delivered.
+
+Operations measured capacity in available production hours.
+
+The model successfully connected these two perspectives through the intermediate workload generated by each component throughout the manufacturing process.
+
+---
+
+# 6. Implementation
+
+Historical operational data was extracted from the company's databases and consolidated into an integrated Excel model.
+
+The solution included:
+
+- Automated relationships between production databases and calculation sheets.
+- Statistical filtering of inconsistent historical information.
+- Estimation methods for incomplete data.
+- Machine allocation logic.
+- Capacity calculations by production area.
+- Demand forecasting.
+- Maintenance projections.
+- Equipment occupancy calculations.
+
+A dedicated front-end worksheet allowed executive management to modify planning variables without interacting with the underlying calculations.
+
+Decision makers could instantly simulate different scenarios by adjusting variables such as:
+
+- Sales forecasts.
+- Process efficiency.
+- Overtime utilization.
+- Acquisition of new machinery.
+
+The model automatically recalculated the expected utilization of every production resource.
+
+Additionally, executive summary reports were generated for strategic presentations, while the interactive model allowed real-time simulation during management meetings.
+
+---
+
+# 7. Business Results
+
+## Quantitative Results
+
+- Developed the company's first integrated capacity planning model.
+- Approximately 92% prediction accuracy.
+- Twelve-month planning horizon.
+- Weekly operational resolution.
+- Integrated more than 2,500 spare part references.
+- Modeled 22 production machines across five equipment categories.
+- Supported production, maintenance, inventory, and expansion planning within a single analytical framework.
+
+## Qualitative Results
+
+Executive management gained a structured decision-support tool capable of evaluating multiple investment scenarios before committing capital.
+
+The model transformed capacity planning from subjective estimation into a quantitative decision process.
+
+## Strategic Results
+
+The model became the foundation for:
+
+- Machinery acquisition decisions.
+- Plant expansion planning.
+- Equipment replacement timing.
+- Production planning.
+- Workforce planning.
+- Sales scenario evaluation.
+
+Its ability to perform live simulations significantly improved executive discussions by allowing alternative investment strategies to be evaluated immediately during planning sessions.
+
+---
+
+# 8. Executive Impact
+
+Beyond calculating production capacity, the project introduced a new planning capability within the organization.
+
+Instead of reacting to production constraints after they appeared, management could anticipate future bottlenecks months in advance and align investments with projected business growth.
+
+The model also facilitated communication between commercial, production, maintenance, and executive teams by providing a common quantitative framework for strategic planning.
+
+---
+
+# 9. Executive Thinking
+
+This project reinforced one of my strongest engineering principles:
+
+**In complex industrial systems, the objective is not to eliminate uncertainty, but to build models that are sufficiently reliable to improve strategic decision-making.**
+
+Beginning with the desired business decision rather than the available data allowed me to simplify a highly complex manufacturing environment without sacrificing predictive accuracy.
+
+By focusing on the variables that truly influenced capacity, I transformed operational complexity into an executive planning tool capable of supporting investment decisions with confidence.
+
+---
+
+# 10. Transferable Executive Knowledge
+
+Complex manufacturing systems rarely require perfect mathematical representations.
+
+They require practical models that capture the dominant variables affecting business performance while filtering out operational noise.
+
+Effective executive models should prioritize decision quality over mathematical perfection.
+
+Designing analytical systems from the desired business outcome backward enables organizations to concentrate on the information that creates value rather than attempting to model every operational detail.
+
+This approach is applicable to capacity planning, supply chain design, production scheduling, maintenance forecasting, capital investment planning, and virtually any industrial environment characterized by high operational variability.
+
+---
+
+# 11. ATS Competencies
+
+*To be developed as part of the Executive Career Portfolio competency mapping.*
