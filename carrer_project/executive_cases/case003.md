@@ -63,12 +63,13 @@ Hice un analisis de los costos del area y encontré un detalle particular, el 56
 ### ¿Cuál fue la decisión más importante?. ¿Por qué?
 
 Descarté la opcion de reducir personal y me enfoqué en cuestionar porqué se cargaba un costo de mano de obra indirecta tan alto a un area tan pequeña.
-Comparativamente el gasto de cada area era aproximadamente como sigue
-| Area | Trabajadores | Gasto mensual | Volumen producido | Costo de conversion |
+Comparativamente el gasto de cada area era aproximadamente como sigue:
+| Area | Trabajadores | Gasto mensual total | Volumen producido | Costo de conversion |
 |-----|-----|-----|-----|-----|
 | Area de Mezclado | 12 trabajadores | 70K USD | 2390 TON | 29.3 USD/TON |
 | Area de Inyeccion | 45 trabajadores | 330K USD | 190 TON | 1736.8 USD/TON |
 | Area de Extrusion | 80 trabajadores | 600K USD | 2200 TON | 272.7 USD/TON |
+
 
 
 ---
@@ -77,19 +78,31 @@ Comparativamente el gasto de cada area era aproximadamente como sigue
 
 ### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
 
-RESPUESTA:
+Comparé los gastos de mano de obra indirectos cargados a todas las areas productivas e identifiqué que estos eran proporcionales al volumen producido.
+El area de Mezcla era la encargada de mezclar el compuesto para toda la planta, nominalmente producía igual que las otras 2 areas juntas y estaba absorviendo la mayor proporcion del gasto de la mano de obra indirecta de toda la compañia. El proceso de mezclado era un proceso de acondicionamiento del compuesto, mientras las area de inyeccion y extrusion eran las que entregaban el producto producido y realizaban la real transformacion de la materia prima de polvo de compuesto a tuberias y accesorios(fittings) de PVC.
+
+Identificada este desbalance le propuse a mi jefe re estructurar esta distribucion de una manera mas equitativa, en terminos claros, transferir parte del gasto a las otras 2 areas podia significar reducir el costo del conversión del Area de Mezclado en 30% e incrementar el costo de conversion de Inyeccion y Extrusion en 1.5 % en cada area. La logica era que estas dos areas al ser mas grandes y tener mas presupuesto no lo ibas a sentir pero en el area de mezcla en cambio iba a ser muy evidente.
+
+La conclusión de que la mano de obra indirecta era proporcional a las toneladas producidas lo inferí observando los analisis de gastos de meses consecutivos hasta encontrar un patron, esta directiva no estaba escrita en ningun manual.
+
+Mi jefe aceptó la propuesta , nuestra empresa tenia una estuctura coorporativa y los ratios y porcentajes que yo habia observado estaban definidos por la casa matriz , por lo que esta modificacion debia ser aprobada solicitada el area de contable coorporativa. Mi jefe me puso en contacto con la persona en la matriz, le expliqué el cambio, llené los formatos que me envió y se realizó la re asignacion de gastos
 
 ---
 
 ## 7. RESULTS
 
 ### Resultados cuantitativos.
+- Reduccion del 30% del Costo de conversión del Area de Mezcla
+- Incremento de 1.5% del costo de conversion del Area de Extrusion y 1.5% en el area de Inyeccion (despreciable)
+- La redistribución del gasto de mano de obra indirecta quedó implementada de manera permanente
 
 ### Resultados cualitativos.
 
+Se redujo la presion por reducir personal en un area que se encontraba al limite de su demanda y requería el personal
+
 ### Resultados inesperados.
 
-
+Reducir el gasto de mano de obra indirecta del area de mezcla permitió re asignal parte del presupuesto a gastos de mantenimiento que se venían postergando o limitando para no exceder el gasto proyectado del area.
 
 ---
 
@@ -97,7 +110,7 @@ RESPUESTA:
 
 ### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
 
-RESPUESTA:
+Si bien no hubo una reduccion o ahorro general, considero que los gastos deben cargarse bajo una logica equitativa para evitar castigar un area y limitar sus gastos por una error en un criterio contable
 
 ---
 
@@ -105,7 +118,7 @@ RESPUESTA:
 
 ### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
 
-
+Aprendí mucho sobre la contabilidad cooporativa, analisis de gastos y la logica detras de los prorrateos y distribusiones de gastos que afectan el gasto de un area y el costo final de un producto, conocerlos me permitió un margen de maniobra que me permitió garantizar el personal y abastecimiento de material compuesto a la planta de produccion.
 
 ---
 
