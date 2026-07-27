@@ -64,11 +64,11 @@ Hice un analisis de los costos del area y encontré un detalle particular, el 56
 
 Descarté la opcion de reducir personal y me enfoqué en cuestionar porqué se cargaba un costo de mano de obra indirecta tan alto a un area tan pequeña.
 Comparativamente el gasto de cada area era aproximadamente como sigue
-| Area | Trabajadores | Gasto mensual | Volumen producido |
-|-----|-----|-----|-----|
-| Area de Mezclado | 12 trabajadores | 70K USD | 2390 TON |
-| Area de Inyeccion | 45 trabajadores | 330K USD | 190 TON |
-| Area de Extrusion | 80 trabajadores | 600K USD | 2200 TON |
+| Area | Trabajadores | Gasto mensual | Volumen producido | Costo de conversion |
+|-----|-----|-----|-----|-----|
+| Area de Mezclado | 12 trabajadores | 70K USD | 2390 TON | 29.3 USD/TON |
+| Area de Inyeccion | 45 trabajadores | 330K USD | 190 TON | 1736.8 USD/TON |
+| Area de Extrusion | 80 trabajadores | 600K USD | 2200 TON | 272.7 USD/TON |
 
 
 ---
