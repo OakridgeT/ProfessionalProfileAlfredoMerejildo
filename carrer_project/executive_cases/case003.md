@@ -1,127 +1,198 @@
-# CASE ID:
-
-Working Title: Re distribucion de costos fijos de area de mezcla 
-
-Company: Nicoll Perú
-
-Position: Jefe de Planta de inyeccion
-
-Year: 2019
-
-Priority:
-( Achievement | Executive Case | Signature Executive Case )
-
-Status:
-( Working Draft | Review Candidate | Approved v1.0 )
-
-Estimated Business Impact:
-( Low | Medium | High | Strategic )
+# CASE-003
 
 ---
 
-## 1. BUSINESS CONTEXT
+# Document Information
 
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-La gerencia de Manufactura recibió la directiva por parte de la gerencia general de reducir el costo de conversión del area de Mezcla de PVC.
-El costo de conversion se define como la suma de todos los gastos o recursos consumidos por el area, dividido por las toneladas producidas, en el concepto de costo de conversión se excluye el costo de las materias primas que se procesan.
-En el caso del area de Mezcla se consideraba como produccion las toneladas mezcladas
-
----
-
-## 2. INITIAL SITUATION
-
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
-
-Según el analisis de mi jefe , de todos los gastos del area de Mezcla, el unico que podia reducirse era la mano de obra, porque la energia electrica, gasto de mantenimiento, depreciacion, gastos indirectos no se podian reducir.
-Recibí la indicacion de reducir 2 personas, pero considerando que solo contabamos con 12 personas en el area y que era un area que trabajaba 3 turnos, de lunes a sabados y conun nivel de ocupacion del 90% reducir personal a mi criterio iba a ser contraproducente.
-El presupuesto del area de mezcla siempre había sido limitado presisamente por ser una area pequeña y por considerarse area de soporte y no productiva.
+| Field | Value |
+|--------|-------|
+| Case ID | CASE-003 |
+| Working Title | Corporate Cost Allocation Redesign for PVC Mixing Operations |
+| Company | Aliaxis Perú (Nicoll Perú) |
+| Position | Injection Plant Manager (Responsible for Mixing Area) |
+| Year | 2019 |
+| Classification | Executive Case |
+| Estimated Business Impact | High |
+| Status | Approved v1.0 |
 
 ---
 
-## 3. BUSINESS OBJECTIVE
+# Executive Summary
 
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
+A corporate directive required reducing the conversion cost of the PVC Mixing Area. The initial recommendation was to decrease headcount, since labor appeared to be the only controllable cost.
 
-Mi jefe esperaba reducir el costo de conversion reduciendo el costo de mano de obra.
-Yo buscaba garantizar el abastecimiento de material mezclado a las plantas de inyeccion y extrusion.
+Instead of implementing workforce reductions that would have jeopardized production continuity, I analyzed the complete cost allocation model and discovered that more than half of the indirect labor cost assigned to the Mixing Area originated from a corporate overhead allocation methodology based primarily on production volume.
 
----
+I challenged a long-standing corporate accounting assumption that had never been questioned within the Aliaxis organization in the region and proposed a new allocation methodology based on a balanced combination of operating budget and direct costs.
 
-## 4. ROOT CAUSE ANALYSIS
+After obtaining approval from Corporate Finance, the new allocation model became the permanent standard, immediately reducing the Mixing Area conversion cost by approximately 30% while increasing the conversion cost of the Injection and Extrusion plants by only about 1.5% each.
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
-
-Descarté la alternativa de despedir personal por que no era operativamente viable.
-Hice un analisis de los costos del area y encontré un detalle particular, el 56% del gasto que se cargaba a la area de Mezcla estaba formado por gastos de mano de obra indirecta, formado principalmente por sueldos de gerencias de produccion, gerencias de logisticas, de ventas y gerencia general, la logica detras de esta distribucion obedece a que los gastos se cargan a las 3 areas productivas  el area de Mezcla, area de Inyeccion y area de Extrusion .
-
+Beyond achieving the original business objective without reducing personnel, the new methodology positioned the Peru Mixing operation as the lowest-cost operation in the region and was later shared with other Aliaxis plants.
 
 ---
 
-## 5. EXECUTIVE DECISION
+# 1. Business Context
 
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
+Corporate Manufacturing Management established a strategic objective to reduce the conversion cost of the PVC Mixing Area.
 
-Descarté la opcion de reducir personal y me enfoqué en cuestionar porqué se cargaba un costo de mano de obra indirecta tan alto a un area tan pequeña.
-Comparativamente el gasto de cada area era aproximadamente como sigue:
-| Area | Trabajadores | Gasto mensual total | Volumen producido | Costo de conversion |
-|-----|-----|-----|-----|-----|
-| Area de Mezclado | 12 trabajadores | 70K USD | 2390 TON | 29.3 USD/TON |
-| Area de Inyeccion | 45 trabajadores | 330K USD | 190 TON | 1736.8 USD/TON |
-| Area de Extrusion | 80 trabajadores | 600K USD | 2200 TON | 272.7 USD/TON |
+Conversion cost was defined as all manufacturing expenses excluding raw materials, divided by the total tons of compound produced.
 
-
+Because the Mixing Area generated a high production volume relative to its size, it consistently reported a higher conversion cost than management expected, creating pressure to reduce operating expenses.
 
 ---
 
-## 6. IMPLEMENTATION
+# 2. Initial Situation
 
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
+Management concluded that labor cost was the only expense category with significant reduction potential, since electricity, depreciation, maintenance, and indirect manufacturing expenses were considered fixed.
 
-Comparé los gastos de mano de obra indirectos cargados a todas las areas productivas e identifiqué que estos eran proporcionales al volumen producido.
-El area de Mezcla era la encargada de mezclar el compuesto para toda la planta, nominalmente producía igual que las otras 2 areas juntas y estaba absorviendo la mayor proporcion del gasto de la mano de obra indirecta de toda la compañia. El proceso de mezclado era un proceso de acondicionamiento del compuesto, mientras las area de inyeccion y extrusion eran las que entregaban el producto producido y realizaban la real transformacion de la materia prima de polvo de compuesto a tuberias y accesorios(fittings) de PVC.
+A reduction of two operators was proposed.
 
-Identificada este desbalance le propuse a mi jefe re estructurar esta distribucion de una manera mas equitativa, en terminos claros, transferir parte del gasto a las otras 2 areas podia significar reducir el costo del conversión del Area de Mezclado en 30% e incrementar el costo de conversion de Inyeccion y Extrusion en 1.5 % en cada area. La logica era que estas dos areas al ser mas grandes y tener mas presupuesto no lo ibas a sentir pero en el area de mezcla en cambio iba a ser muy evidente.
+However, the Mixing Area operated:
 
-La conclusión de que la mano de obra indirecta era proporcional a las toneladas producidas lo inferí observando los analisis de gastos de meses consecutivos hasta encontrar un patron, esta directiva no estaba escrita en ningun manual.
+- 12 employees
+- Three shifts
+- Six days per week
+- Approximately 90% utilization
 
-Mi jefe aceptó la propuesta , nuestra empresa tenia una estuctura coorporativa y los ratios y porcentajes que yo habia observado estaban definidos por la casa matriz , por lo que esta modificacion debia ser aprobada solicitada el area de contable coorporativa. Mi jefe me puso en contacto con la persona en la matriz, le expliqué el cambio, llené los formatos que me envió y se realizó la re asignacion de gastos
+From an operational perspective, reducing personnel would have increased production risk and threatened the continuous supply of PVC compound to the Injection and Extrusion plants.
 
----
-
-## 7. RESULTS
-
-### Resultados cuantitativos.
-- Reduccion del 30% del Costo de conversión del Area de Mezcla
-- Incremento de 1.5% del costo de conversion del Area de Extrusion y 1.5% en el area de Inyeccion (despreciable)
-- La redistribución del gasto de mano de obra indirecta quedó implementada de manera permanente
-
-### Resultados cualitativos.
-
-Se redujo la presion por reducir personal en un area que se encontraba al limite de su demanda y requería el personal
-
-### Resultados inesperados.
-
-Reducir el gasto de mano de obra indirecta del area de mezcla permitió re asignal parte del presupuesto a gastos de mantenimiento que se venían postergando o limitando para no exceder el gasto proyectado del area.
+Additionally, because the Mixing Area was considered a support operation rather than a final manufacturing process, its operating budget had historically been constrained.
 
 ---
 
-## 8. EXECUTIVE THINKING
+# 3. Business Objective
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
+The manufacturing organization sought to reduce the conversion cost of the Mixing Area.
 
-Si bien no hubo una reduccion o ahorro general, considero que los gastos deben cargarse bajo una logica equitativa para evitar castigar un area y limitar sus gastos por una error en un criterio contable
-
----
-
-## 9. REUSABLE KNOWLEDGE
-
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
-
-Aprendí mucho sobre la contabilidad cooporativa, transacciones del Sistema SAP,  analisis de gastos y la logica detras de los prorrateos y distribusiones de gastos que afectan el gasto de un area y el costo final de un producto, conocerlos me permitió un margen de maniobra que me permitió garantizar el personal y abastecimiento de material compuesto a la planta de produccion.
+My objective was to accomplish this target without compromising operational stability, production capacity, or material availability for downstream manufacturing processes.
 
 ---
 
-## 10. ATS COMPETENCIES
+# 4. Root Cause Analysis
 
-(esta parte la construiré yo)
+Instead of assuming that labor reduction was the only available solution, I analyzed the complete cost structure of the Mixing Area.
+
+The analysis revealed that approximately 56% of the labor expense assigned to the department corresponded to indirect corporate labor costs, including executive management, logistics, sales, and general administration.
+
+These expenses were allocated using a corporate methodology established by Aliaxis headquarters and applied uniformly across all regional operations.
+
+After reviewing several consecutive monthly financial reports, I identified a hidden pattern:
+
+Indirect labor costs were allocated almost entirely according to production volume.
+
+Because the Mixing Area produced compound for both the Injection and Extrusion plants, its production volume was nearly equal to the combined output of both downstream operations.
+
+As a result, the Mixing Area absorbed a disproportionately high percentage of the corporation's indirect labor costs despite employing only 12 people and functioning primarily as an internal support process.
+
+---
+
+# 5. Executive Decision
+
+Rather than reducing personnel, I decided to challenge the underlying cost allocation methodology.
+
+I proposed replacing the existing allocation model with a more balanced methodology based on a combination of departmental operating budget and direct operating costs.
+
+This approach better represented each department's operational complexity and actual consumption of corporate support resources.
+
+The proposed redistribution would:
+
+- Reduce the Mixing Area conversion cost by approximately 30%.
+- Increase the conversion cost of the Injection Area by only about 1.5%.
+- Increase the conversion cost of the Extrusion Area by only about 1.5%.
+
+The overall financial impact on the organization remained essentially neutral while eliminating a significant distortion affecting the Mixing Area.
+
+---
+
+# 6. Stakeholder Management
+
+The proposal was first presented to the Manufacturing Manager.
+
+Although I was also responsible for the Injection Plant, I supported the redistribution because maintaining a stable and adequately funded Mixing operation was essential for ensuring uninterrupted production throughout the factory.
+
+The Extrusion Manager reached the same conclusion, recognizing that the marginal increase in conversion cost was operationally insignificant compared with the benefits of a financially sustainable Mixing Area.
+
+Because the allocation methodology had been defined by Aliaxis Corporate and applied across multiple countries, approval required coordination with the Corporate Finance organization.
+
+After presenting the financial analysis and completing the required corporate documentation, headquarters approved the revised allocation methodology.
+
+---
+
+# 7. Implementation
+
+The revised cost allocation model was implemented beginning with the following monthly financial closing.
+
+The new methodology permanently redistributed indirect labor costs using a balanced combination of operating budget and direct costs rather than relying predominantly on production volume.
+
+The updated allocation became the new accounting standard for the operation.
+
+---
+
+# 8. Business Results
+
+## Quantitative Results
+
+- Approximately 30% reduction in Mixing Area conversion cost.
+- Approximately 1.5% increase in Injection conversion cost.
+- Approximately 1.5% increase in Extrusion conversion cost.
+- Immediate implementation beginning with the following accounting period.
+- Permanent adoption of the revised allocation methodology.
+
+## Qualitative Results
+
+- Eliminated the need for workforce reductions.
+- Preserved production capacity and operational stability.
+- Improved financial visibility by aligning cost allocation with operational reality.
+- Increased credibility of manufacturing cost indicators.
+
+## Strategic Results
+
+Following implementation, the Peru Mixing operation became the lowest-cost Mixing operation within the regional organization.
+
+Months later, the Chile operation contacted me to understand how such a low conversion cost had been achieved, assuming that the result was due to a leaner workforce.
+
+Instead, I shared the revised allocation methodology, which was subsequently replicated within their operation.
+
+---
+
+# 9. Executive Impact
+
+The improved cost structure released budget capacity within the Mixing Area.
+
+Rather than being consumed by artificially inflated indirect costs, additional resources became available for:
+
+- Preventive maintenance.
+- Spare parts acquisition.
+- Lighting improvements.
+- Ventilation improvements.
+- Small operational improvement projects.
+
+The result strengthened long-term operational reliability without increasing total corporate spending.
+
+---
+
+# 10. Executive Thinking
+
+This case reinforced one of my core management principles:
+
+**The largest improvements do not always come from reducing resources; they often come from understanding how business performance is measured.**
+
+Instead of accepting an existing financial indicator as immutable, I analyzed the assumptions behind it, identified a structural distortion, and proposed a technically and financially balanced alternative.
+
+The objective was not to improve one department's performance at the expense of another, but to ensure that corporate costs reflected the operational reality of each manufacturing process.
+
+---
+
+# 11. Transferable Executive Knowledge
+
+This experience demonstrated that management indicators should periodically be challenged to verify that they continue to represent operational reality.
+
+Corporate standards provide consistency, but they may also perpetuate historical assumptions that no longer reflect the true economics of a manufacturing process.
+
+Executive leaders create value by understanding both operational systems and financial systems, allowing them to identify structural improvements that conventional cost reduction initiatives often overlook.
+
+---
+
+# 12. ATS Competencies
+
+*To be developed as part of the Executive Career Portfolio competency mapping.*
