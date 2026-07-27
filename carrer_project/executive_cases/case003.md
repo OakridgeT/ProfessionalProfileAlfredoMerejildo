@@ -118,7 +118,7 @@ Si bien no hubo una reduccion o ahorro general, considero que los gastos deben c
 
 ### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
 
-Aprendí mucho sobre la contabilidad cooporativa, analisis de gastos y la logica detras de los prorrateos y distribusiones de gastos que afectan el gasto de un area y el costo final de un producto, conocerlos me permitió un margen de maniobra que me permitió garantizar el personal y abastecimiento de material compuesto a la planta de produccion.
+Aprendí mucho sobre la contabilidad cooporativa, transacciones del Sistema SAP,  analisis de gastos y la logica detras de los prorrateos y distribusiones de gastos que afectan el gasto de un area y el costo final de un producto, conocerlos me permitió un margen de maniobra que me permitió garantizar el personal y abastecimiento de material compuesto a la planta de produccion.
 
 ---
 
