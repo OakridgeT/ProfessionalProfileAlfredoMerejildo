@@ -1,137 +1,207 @@
-# CASE ID:
-
-Working Title: incorporacion de mujeres a la fuerza laboral de la planta de inyeccion
-
-Company: Nicoll 
-
-Position: Jefe de planta de inyeccion
-
-Year: 2019
-
-Priority:
-( Achievement | Executive Case | Signature Executive Case )
-
-Status:
-( Working Draft | Review Candidate | Approved v1.0 )
-
-Estimated Business Impact:
-( Low | Medium | High | Strategic )
-
----
-## 0. PROCESS CONTEXT
-
-Como encargado de la planta de inyeccion de accesorios de PVC , tenia a mi cargo 12 maquinas de inyeccion de Plastico (PVC).
-Los productos se forman por la inyeccion de plastico dentro de los moldes que la maquina abre para expulsar las piezas y vuelve a cerrar para hacer nuevamente la inyeccion en un proceso ciclico.
-El trabajo de las maquinas es automatico pero las piezas al ser expulsadas de los molde requieren de mano de obra para ser recogidas, inspeccionadas, seleccionadas y empaquetadas en cajas o bolsas para su ingreso a los los almacenes. Las maquinas dependiendo del molde producian diferentes modelos de piezas, habian moldes que producian 1, 2 , 4, 8 y hasta 24 piezas en cada inyeccion de plastico dependiendo de cada molde.
-Ademas de empacar y contabilizar los productos, los operarios de maquinas se encargaban de la regulacion de las maquinas en algunos casos. 
-
-## 1. BUSINESS CONTEXT
-
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-La planta tenía una alta rotacion del personal debido a que era un trabajo relativamente poco calificado (los trabajadores nuevos no regulaban ni arranncaban las maquinas, solo recogian piezas) y de sueldo bajo.
-Esta rotación afectaba negativamente porque:
-Los costos de contratar a un trabajador era altos por los examenes medicos, seguros, periodos de induccion, etc
-Los periodos de capacitacion eran de meses antes de poder confiar en un trabajador para que regule o mas complejo aun , arranque una maquina.
-
-
+# CASE-006
 
 ---
 
-## 2. INITIAL SITUATION
+# Document Information
 
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
-
-Las faltas o renuncias obigaban a parar maquinas y esto significaba una perdida y debastecimiento de productos.
-El persona nuevo cometia errores debido a su inexperiencia
-Los tiempos de reposicion de personal tardaban semanas o meses lo que nos obligaba a pagar sobre tiempo y agotar al personal
-La planta de produccion trabajaba 24 horas continuas bajo el sistema de relevos en turnos de 8 horas diarias, cuando faltaba una persona, la maquina debia parar hasta el siguiente turno.
-
----
-
-## 3. BUSINESS OBJECTIVE
-
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
-
-La empresa queria reducir la rotacion del persona sin incrementar los sueldos que ya estaban presupuestados
-Yo necesitaba un mayor compromiso de parte de los trabajadores y reducir la rotacion y el ausentismo
+| Field | Value |
+|--------|-------|
+| Case ID | CASE-006 |
+| Working Title | Inclusive Workstation Redesign to Improve Workforce Retention and Operational Stability |
+| Company | Nicoll Perú (Aliaxis Group) |
+| Position | Injection Plant Manager |
+| Year | 2019 |
+| Classification | Executive Case |
+| Estimated Business Impact | High |
+| Status | Approved v1.0 |
 
 ---
 
-## 4. ROOT CAUSE ANALYSIS
+# Executive Summary
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
+The PVC Injection Plant experienced persistent workforce turnover due to the repetitive nature of machine operation, relatively low entry-level wages, and the continuous demand for operators willing to work rotating shifts.
 
-Cada turno de trabajo estaba formado por 12 operarios de un supervisor
-Se tenian 3 turnos de trabajo
-Solo tenía 2 mujeres operarias en toda la planta.
-Tenía la sospecha que las mujeres eran mas responsable que los hombres y ademas los hombres al ser cabeza de familia, necesitaban un sueldo superior mientras la mujeres podian adaptarse mejor a un sueldo bajo debido a que era solo para sus gastos y tenian menos presion familiar.
+Rather than treating turnover solely as a Human Resources issue, I analyzed the operational characteristics of the production system and identified an opportunity to redesign the workplace to broaden the available talent pool while simultaneously improving ergonomics for all operators.
 
----
+The initiative combined workstation redesign, ergonomic improvements, material handling optimization, workplace infrastructure upgrades, and cultural change, allowing female participation in production roles to increase from isolated individual positions to approximately 25% of the operational workforce.
 
-## 5. EXECUTIVE DECISION
-
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
-
-Decidí apostar por incrementar el porcentaje de mujeres porque consideré que tenian mas compromiso con el trabajo, eran mas ordenadas y minuciosas para revisar las piezas.
+Over a two-year period, employee turnover was reduced by approximately 25%, absenteeism decreased, workforce commitment improved, and the production environment became safer, more organized, and more collaborative without increasing labor costs.
 
 ---
 
-## 6. IMPLEMENTATION
+# 1. Business Context
 
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
+The Injection Plant operated:
 
-Solicité al area de recursos humanos selecionar tambien candidatas mujeres en para las entrevistas y reducir los requisitos de experiencia previa
+- Twelve PVC injection molding machines.
+- Three continuous production shifts.
+- Twenty-four-hour operation.
+- Approximately thirty-six machine operators distributed across three crews.
 
-Los supervisores consideraban que 1 mujer por turno era suficiente porque algunos trabajos eran pesados y requerian fuerza , para estos trabajos las mujeres podian ser una carga  mas que una ayuda y eso iba a causar malestar y sobre trabajo en los varones.
+Although the molding process itself was fully automated, operators were responsible for:
 
-Para eliminar esta restricion del trabajo pesada adopté como filosofia reducir al maximo el esfuerzo fisico en la planta, implementando coches con ruedas para el traslado de materiales, reduciendo la necesidad de desplazamientos implemtando mas equipos de sellado de bolsas y cosedoras de sacos en cada maquina. Incluso diseñé un sistema de cosedoras de sacos suspendidas sobre resortes , con lo cual el operario no tenía que cargar una cosedora de apro 23 kilos cada vez que cosia su saco de productos. Las cosedoras antes se encontraban sobre una mesa y se tenian que cargar para coser los sacos.
-Mandé a fabricar bancos ergonomicos de baja altura porque los trabajadores debian estar ubicados al pié de las maquinas para recoger los productos.
-Realicé mejoras para que los pesos que se necesitaban manipular estén todos a la altura de la cintura y evitar sobre esfuerzos.
+- Collecting molded parts.
+- Performing visual inspection.
+- Sorting defective products.
+- Packaging finished goods.
+- Recording production.
+- Progressively learning machine setup and parameter adjustments.
 
-Acondicioné un vestuario con baños y agua caliente para comodidad de las mujeres quienes anteriormente cuando eran solo dos se tenian que cambiar en el baño de damas.
-
----
-
-## 7. RESULTS
-
-### Resultados cuantitativos.
-
-Se llegaron a incorporar hasta 3 mujeres en cada turno de trabajo (9 en total)
-La rotación de personal del personal bajó drasticamente
-La mujeres no tenían la tendencia de faltar los sabados como si lo hacian los varones
-
-### Resultados cualitativos.
-
-El clima laboral mejoró positivamente, los trabajadores eran mas respetuosos entre ellos y se formaba un ambiente mas familiar.
-Las mujeres eran definitivamente mas cuidadosas en la seleccion de los productos y su contabilización
-
-### Resultados inesperados.
-
-varias operarias tomaron la destreza para arrancar sus respectivas maquinas, regular parametros debido 
-Tuve que enfrentar problemas nuevos para prevenir problemas como crear un codigo de vestimenta para las mujeres, se instaló una politica mas sería contra el acoso y sabia que tenia que actuar de manera preventiva sancionando cualquier falta de respeto o acoso ante las trabajadoras.
-Si bién el numero de mujeres en la planta tambien varió con los años , a vecs disminuyó y otras se mantuvo, el hecho que el postulante sea mujer ya no fué una limitacion en la planta de inyeccion porque las condiciones de trabajo eran mas favorables.
+The company faced persistent personnel turnover because the entry-level operator position required limited previous qualifications while offering salaries already defined within the company's compensation structure.
 
 ---
 
-## 8. EXECUTIVE THINKING
+# 2. Initial Situation
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
+High personnel turnover created significant operational challenges.
 
-Considero que fué una decision correcta porque identifiqué la razon de la rotación alta de los varones y pude dar oportunidad a mujeres que necesitaban un trabajo y no debian verse limitadas por la fuerza fisica.
-Finalmente se cumplió el objetivo de reducir la alta rotacion de personal.
+Every resignation generated:
+
+- Medical examinations.
+- Hiring processes.
+- Safety induction.
+- Technical training.
+- Several months of supervised learning before operators could independently adjust or start machines.
+
+Unexpected absences frequently forced production interruptions because each machine required a dedicated operator throughout the shift.
+
+Replacing experienced personnel required weeks or months, increasing overtime costs while placing additional workload on experienced operators.
+
+At that time, female participation in the Injection Plant was extremely limited, with only two women employed across all production shifts.
 
 ---
 
-## 9. REUSABLE KNOWLEDGE
+# 3. Business Objective
 
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
+The organization sought to reduce employee turnover without increasing salaries.
 
-Aprendí que cuando se trata del factor humano hombres y mujeres tienen diferentes capacidades y se debe aprovechar lo mejor de cada uno.
-Fue muy importante crear la s condiciones adecuadas de trabajo para que la fuerza fisica no sea un factor diferenciador entre hombres y mujeres , sinó su compromiso con el trabajo
+My objective extended beyond retention.
+
+I wanted to build a more stable operational workforce by improving commitment, reducing absenteeism, expanding the available talent pool, and creating working conditions where physical strength was no longer a limiting factor for job performance.
 
 ---
 
-## 10. ATS COMPETENCIES
+# 4. Root Cause Analysis
 
-(esta parte la construiré yo)
+After analyzing workforce behavior over time, I concluded that turnover was influenced not only by compensation but also by the characteristics of the available labor market.
+
+Many male operators viewed the position as a temporary job while searching for higher-paying opportunities, resulting in frequent resignations and absenteeism.
+
+Conversely, I observed that many female candidates sought stable employment, demonstrated strong commitment to training, and showed greater attention to quality-related tasks such as inspection, counting, and packaging.
+
+However, the production system itself presented unnecessary physical barriers that limited broader participation.
+
+Several workstations still required excessive manual effort for transporting materials, handling heavy sewing equipment, and performing repetitive movements.
+
+The problem therefore was not simply recruitment.
+
+The work system itself required redesign.
+
+---
+
+# 5. Executive Decision
+
+Rather than focusing exclusively on recruitment, I decided to redesign the production environment to make operational performance depend on competence rather than physical strength.
+
+The strategy combined three complementary initiatives:
+
+- Increase female participation in production roles.
+- Eliminate unnecessary physical effort through ergonomic improvements.
+- Create workplace conditions that supported long-term workforce stability.
+
+This approach addressed both workforce retention and operational efficiency simultaneously.
+
+---
+
+# 6. Implementation
+
+Implementation began with close coordination between Production and Human Resources.
+
+I requested that recruitment processes actively include female candidates while reducing unnecessary experience requirements for entry-level positions.
+
+The greatest effort, however, focused on redesigning the workplace itself.
+
+Major improvements included:
+
+- Material carts with wheels to eliminate manual carrying.
+- Additional bag sealing and sack sewing equipment positioned close to each machine.
+- Suspended sack sewing machines supported by spring mechanisms, eliminating the need to repeatedly lift equipment weighing approximately 23 kg.
+- Custom-designed low ergonomic seats for operators working beside injection machines.
+- Rearrangement of workstations so that material handling occurred near waist height, reducing repetitive lifting and awkward postures.
+- Construction of dedicated changing rooms with bathrooms and hot water for female personnel.
+
+The first two months concentrated on implementing the principal ergonomic improvements, while additional refinements continued progressively throughout the following two years.
+
+Supervisors initially expressed concern that assigning more women could increase the physical workload of male operators.
+
+To address these concerns, new personnel were initially assigned to lighter production cells while the ergonomic improvements progressively reduced physical demands throughout the plant.
+
+At the same time, I established clear expectations regarding workplace respect, reinforced zero tolerance for harassment, and worked closely with supervisors to ensure that the cultural transition occurred in a professional and respectful manner.
+
+---
+
+# 7. Business Results
+
+## Quantitative Results
+
+- Female participation increased from two operators to approximately nine operators.
+- Peak female participation reached approximately 25% of the production workforce, with a long-term average close to 18%.
+- Employee turnover decreased by approximately 25% over a two-year period.
+- Reduced absenteeism.
+- Lower overtime requirements caused by personnel shortages.
+
+## Qualitative Results
+
+The redesigned workstations improved ergonomics for every operator, regardless of gender.
+
+Workplace climate became noticeably more respectful, collaborative, and stable.
+
+Female operators consistently demonstrated strong commitment to training and progressively acquired the skills required for machine setup and parameter adjustment, increasing workforce versatility.
+
+## Organizational Results
+
+The initiative permanently removed gender as a practical barrier for production positions within the Injection Plant.
+
+Although workforce composition continued to evolve over time, female candidates became a normal part of future recruitment processes because the workplace had been redesigned to support broader participation.
+
+---
+
+# 8. Executive Impact
+
+The project demonstrated that workforce stability can be improved through engineering as well as human resource policies.
+
+Instead of relying solely on recruitment efforts, the initiative transformed the production environment into one that naturally supported higher retention, greater engagement, improved ergonomics, and stronger operational continuity.
+
+The ergonomic improvements also generated lasting productivity benefits for the entire workforce, not only for newly incorporated employees.
+
+---
+
+# 9. Executive Thinking
+
+This experience reinforced one of my core management principles:
+
+**Diversity produces its greatest value when work systems are designed so that performance depends on capability rather than unnecessary physical barriers.**
+
+Rather than asking people to adapt to an inefficient production system, engineering should remove avoidable constraints so that every qualified individual has the opportunity to perform successfully.
+
+The project also demonstrated that improvements originally developed for one group often generate benefits for the entire organization.
+
+---
+
+# 10. Transferable Executive Knowledge
+
+Operational excellence and workforce inclusion are not independent objectives.
+
+Well-designed production systems reduce physical effort, improve ergonomics, increase safety, and simultaneously expand the available talent pool.
+
+Organizations frequently attempt to solve retention problems through compensation or recruitment alone.
+
+However, redesigning the workplace itself often creates more sustainable improvements by increasing employee engagement, reducing fatigue, supporting skill development, and strengthening long-term operational stability.
+
+This philosophy is applicable to manufacturing, logistics, warehousing, assembly operations, food processing, and any industrial environment where unnecessary physical constraints limit workforce participation.
+
+---
+
+# 11. ATS Competencies
+
+*To be developed as part of the Executive Career Portfolio competency mapping.*
