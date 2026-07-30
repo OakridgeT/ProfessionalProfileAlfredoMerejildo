@@ -1,148 +1,207 @@
-# CASE ID:
-
-Working Title:  reduccion de volumen de efluentes liquidos tratados en planta de tratamiento de aguas
-
-Company:  Alicorp
-
-Position:  Juefe de servicios industriales
-
-Year:  2015
-
-Priority:
-( Achievement | Executive Case | Signature Executive Case )
-
-Status:
-( Working Draft | Review Candidate | Approved v1.0 )
-
-Estimated Business Impact:
-( Low | Medium | High | Strategic )
-
----
-## 0. COMPANY CONTEXT
-
-Alicorp ademas de ser el mayor productor de alimentos del Perú cuenta con una planta muy grande ubicado en Lima donde estan juntas varias plantas como:
-- Refineria de Aceites y grasas
-- Envasado de aceites
-- Formulacion y Envasado de mantecas
-- Formulacion y Envasado de salsas I, II y III
-- Fabricacion y envasado de Alimento balanceado para mascotas
-- Planta de produccion de jabones
-- Molinos de Trigo
-- Planta de fideos
-- Planta de galletas
-- Envasado de harina
-Esto a una idea de la magnitud de la operacion. para optimizar sus procesos contaban con una unica planta de servicios industriales que tenia las siguientes funciones:
-- Operar las calderas de vapor y abastecer vapor sobresaturado a los procesos que lo requerian.
-- Operar los compresores de aire y abastecer a todos los procesos
-- Hacer el tratamiento de los efluentes liquidos que se generaban en todos los procesos antes de enviarlos a desague en la Planta de Tratamiento de Aguas Residuales (PTAR).
-
-
-
-## 1. BUSINESS CONTEXT
-
-###  ¿Qué estaba ocurriendo en la empresa?. ¿Por qué existía ese problema?.
-
-Los procesos de fobricacion de alimentos requieren un alto nivel de inocuidad, todas las maquinas deben pasar por procesos de interno (CIP) y lavado externo (COF). 
-Las plantas que particularmente requieren lavado son las plantas de salsas; planta de mayonesa, planta de salsa de tomate, planta de salasa picantes y especias, las cuales por usar ingredientes frescos como hojas aromaticas, quesos, leche, zanahoria, que ademas de tener una carga microbiana tienden a iniciar su estado de descomposicion rapidamente. Por este motivo los lavados se hacen cada 48 horas como maximo en algunas de ellas.
-Cada lavado requiere que bombas de alta presion inyecten soluciones acidas , alcalinas y agua a alta temperatura y temperatura ambiente a los largo de todas las tuberias donde transita el producto, mezcladores, tanques de agitacion, tanques de almacenamiento y lineas de envasado.
-
+# CASE-007
 
 ---
 
-## 2. INITIAL SITUATION
+# Document Information
 
-### ¿Cómo era la situación antes?. ¿Qué indicadores eran malos?. ¿Qué restricciones existían?.
-
-Toda el agua usada para el proceso de lavado era tratada en la Planta de Tratamiento de Aguas Residuales (PTAR). El objetivo era eliminar todo residuo solido o diluido en las aguas, niveles de grasa, acidez o alcalinidad y hacerlo compatible con las aguas residuales que se arrojan a los desagues para evitar un impacto negativo por parte de la planta.
-
-Los indicadores de la PTAR eran 3:
-- Conseguir un bajo costo de operacion total, formado por el costo de insumos quimicos del proceso y energia electrica.
-- Conseguir un bajo costo de tratamiento de agua en dolares por cada metro cubico de agua tratado
-- Garantizar al 100% que el agua enviada al desague cumpla con la ley de efluentes liquidos, no botar agua con grasa o agua caliente y con alto valor de acidez o alcalinidad.
-Cuando el agua de lavado de los procesos sobrepasaba la capacidad de la planta de tratamiento de aguas el efluente debia ser arrojado al desague directamente.
-La PTAR tiene una capacidad de 15m3/hr para procesar efluentes. Cuenta con Tanques de pre tratamiento, separacion de grasas  y almacenamiento de efluentes de los cuales se bombea el agua para ser tratada en la planta de lodos.
-El volumen promedio de agua tratrada es de 5200 m3/mes
-El costo de tratamiento es de 2.68 USD/m3
+| Field | Value |
+|--------|-------|
+| Case ID | CASE-007 |
+| Working Title | Upstream Process Optimization to Reduce Industrial Wastewater Treatment Load |
+| Company | Alicorp S.A.A. |
+| Position | Industrial Utilities Manager |
+| Year | 2015 |
+| Classification | Executive Case |
+| Estimated Business Impact | High |
+| Status | Approved v1.0 |
 
 ---
 
-## 3. BUSINESS OBJECTIVE
+# Executive Summary
 
-### ¿Qué esperaba conseguir la empresa?. ¿Qué esperaba tu jefe?. ¿Qué esperabas tú?
+Alicorp's industrial complex concentrated multiple food manufacturing plants that shared a single Wastewater Treatment Plant (WWTP). While the treatment facility consistently met environmental regulations, it operated with a high processing cost and periodically exceeded its hydraulic storage capacity when several production plants executed Cleaning-in-Place (CIP) operations simultaneously.
 
-La empresa buscaba reducir los costos de tratamiento de aguas residuales y evitar descargas sin tratamiento al desague local.
-Yo había observado si bien la planta tenia capacidad de tratar el volumen de agua requerido, en ocaciones mas de una planta realizaba sus lavados al mismo tiempo y eso sobrepasaba la capacidad de almacenamiento de los tanques , parte del agua de lavado que se trataba esta muy limpia y no necesitana ser tratada porque cumplia con los parametros de las aguas que podia enviarse al desague sin riesgo. 
+Instead of optimizing the treatment plant itself, I analyzed the complete wastewater generation system and discovered that a significant portion of the incoming flow consisted of clean or minimally contaminated water that did not require biological treatment.
 
-
-
+By redesigning the wastewater routing strategy, permanently modifying drainage infrastructure, and separating clean water streams from contaminated effluents, the project reduced the treatment load by approximately **18%**, lowered operating costs, virtually eliminated emergency untreated discharges, and improved the biological efficiency of the treatment process without requiring capital investment in new treatment equipment.
 
 ---
 
-## 4. ROOT CAUSE ANALYSIS
+# 1. Business Context
 
-### ¿Cómo analizaste el problema?. ¿Por qué descartaste otras soluciones?
+Alicorp's industrial complex integrated several manufacturing plants operating within the same production site, including:
 
-Empecé a analizar el problema enfocado reducir el volumen de agua que llegaba a los tanques para tratamiento. 
-No era posible reducir el numero de lavados de las plantas ni controlar su ocurrecia, basicamente todos los lunes en la mañana las 3 planta realizaban sus lavados y eso estaba fuera de mi control por ser parte de la operacion.
-Descarté reducir el costo de insumos, mano de obra porque consideré que no eran el problema raiz.
+- Vegetable oil refinery.
+- Edible oil packaging.
+- Margarine production.
+- Sauce manufacturing.
+- Pet food production.
+- Soap manufacturing.
+- Wheat milling.
+- Pasta production.
+- Biscuit manufacturing.
+- Flour packaging.
 
----
+All facilities depended on a centralized Industrial Utilities Department responsible for:
 
-## 5. EXECUTIVE DECISION
+- Steam generation.
+- Compressed air supply.
+- Industrial wastewater treatment.
 
-### ¿Cuál fue la decisión más importante?. ¿Por qué?
+Food manufacturing required strict hygiene standards.
 
-Realizar una inspeccion en campo y una caracterizacion de las aguas que llegaban a la planta PTAR segun las plantas que generaban el efluente.
-Con esta informacíon involucré a las areas de mantenimiento y produccion para ejecutar trabajos de mejora y modificaciones para reducir la carga de la PTAR
+Production equipment was therefore cleaned periodically using automated Cleaning-in-Place (CIP) systems and external cleaning procedures involving:
 
----
+- Hot water.
+- Ambient water.
+- Acid solutions.
+- Alkaline solutions.
 
-## 6. IMPLEMENTATION
-
-### ¿Qué hiciste exactamente?. ¿Cómo convenciste a las personas?. ¿Qué obstáculos aparecieron?
-
-- Realicé inspecciones  a las plantas junto con los lideres de proceso y jefes de planta para identificar sus sistemas de lavado y generacion de efluentes
-- Descubrí que el 100% de las aguas usadas en el proceso iban dirigidas a la planta PTAR, incluso el agua de refrigeracion que basicamente era agua limpia.
-- Re dirigí las tuberias de desague que contenian aguas limpias a los desagues de las plantas de produccion.
-- Identifiqué que parte del agua limpia podía ser usado para mantener el nivel de las torres de enfriamiento en las propias plantas.
-- Identifique con ayuda de sensores de PH y temperatura que parte del agua de enjuague de los lavados de las plantas era basicamente agua limpia que estaba siendo enviada a tratar innecesariamente, lo cual representaba un volumen considerable y costo considerable.
-
----
-
-## 7. RESULTS
-
-### Resultados cuantitativos.
-
-Reduccion de 1200 m3/mes ( las 3 plantas de salsa juntas ) de aguas tratadas , las cuales fueron re dirigidas a desagues o usadas como agua de reposicion o regadio
-Reduccion en un 95% de sobrepasar la capacidad de los tanques de pre tratamiento de agua y evitar envia el agua al desague sin pasar por la planta de tratamiento PTAR
-
-### Resultados cualitativos.
-
-- Trabajar con los tanques mas vacío tambien reduce la posibilidad de derrames por sobrepasar la capacidad de los tanques
-- Los tanques de pre tratamiento tambien consumian menor cantidad de insumos quimicos debido a que la materia organica estaba mas consentrada y habia menos agua limpia mezclada en el proceso.
-
-### Resultados inesperados.
-
-
+These cleaning operations generated large volumes of wastewater that were directed to the centralized Wastewater Treatment Plant (WWTP).
 
 ---
 
-## 8. EXECUTIVE THINKING
+# 2. Initial Situation
 
-### ¿Por qué consideras que esta decisión fue correcta?. ¿Qué principio de gestión demuestra?
+The WWTP had three strategic objectives:
 
-La decisión fué correcta porque atacó directamente el problema es estaba orientado a optimizar el proceso
+- Maintain full environmental compliance.
+- Minimize total operating cost.
+- Reduce treatment cost per cubic meter processed.
+
+The plant had a treatment capacity of approximately **15 m³/hour**, processing an average of **5,200 m³/month** at an operating cost of **USD 2.68 per treated cubic meter**.
+
+Although treatment capacity was generally sufficient, simultaneous cleaning operations—particularly in the sauce manufacturing plants—periodically exceeded the storage capacity of the equalization tanks.
+
+Whenever storage capacity was exceeded, part of the incoming wastewater had to bypass treatment and be discharged directly into the municipal sewer system, creating environmental and operational risk.
 
 ---
 
-## 9. REUSABLE KNOWLEDGE
+# 3. Business Objective
 
-### ¿Qué aprendiste?. ¿En qué otras industrias puede aplicarse?
+The organization sought to reduce wastewater treatment costs while preventing untreated discharges.
 
-Aprendí la importancia del los recorridos de inpeccion y que los problemas se pueden resolver no solo haciendo grandes cambios , sino por de pequeñas mejoras que juntas hacen un resultado importante.
+Rather than focusing on optimizing chemical consumption or increasing treatment capacity, I aimed to reduce the volume of water entering the treatment process without compromising environmental compliance.
 
 ---
 
-## 10. ATS COMPETENCIES
+# 4. Root Cause Analysis
 
-(esta parte la construiré yo)
+I began by questioning a fundamental assumption:
+
+**Did every cubic meter arriving at the WWTP actually require treatment?**
+
+Interviews with production managers were combined with extensive field inspections, tracing drainage systems through production areas that were rarely accessed during normal operations.
+
+The investigation revealed three important findings:
+
+- Every water stream generated by the manufacturing plants was routed to the WWTP regardless of its contamination level.
+- Cooling and lubrication water used in certain equipment remained essentially clean throughout the process.
+- During final rinse stages of several cleaning cycles, water quality frequently complied with discharge requirements and therefore did not require biological treatment.
+
+Laboratory analyses—including pH, temperature, oils and grease, and other wastewater quality indicators—confirmed these observations.
+
+The problem was therefore not the efficiency of the treatment plant.
+
+The problem was that clean water was unnecessarily occupying valuable treatment capacity.
+
+---
+
+# 5. Executive Decision
+
+Instead of investing in expanding the WWTP, I decided to redesign the upstream wastewater collection system.
+
+The strategy focused on separating clean water streams from contaminated process effluents before they reached the treatment plant.
+
+The proposal was developed jointly with Production, Maintenance and Quality Control.
+
+By demonstrating that manufacturing operations would not be affected—and that each production area could also report measurable sustainability improvements—the initiative received broad operational support.
+
+Final approval was granted by Plant Management after reviewing field evidence and laboratory measurements confirming regulatory compliance.
+
+---
+
+# 6. Implementation
+
+The project required extensive coordination rather than capital investment.
+
+Key activities included:
+
+- Field inspections throughout the production facilities.
+- Joint technical reviews with production leaders.
+- Identification and classification of wastewater streams.
+- Permanent modification of drainage piping.
+- Diversion of clean cooling water directly to plant drainage systems.
+- Reuse of suitable water streams as cooling tower make-up water.
+- Identification of final rinse water suitable for direct discharge.
+- Installation of new drainage points where required.
+
+The modifications permanently changed the wastewater routing philosophy across the participating production plants.
+
+---
+
+# 7. Business Results
+
+## Quantitative Results
+
+- Approximately **18% reduction** in total wastewater volume requiring treatment.
+- Monthly reduction of approximately **950–1,000 m³** of treated wastewater.
+- Estimated operating cost reduction of approximately **USD 2,700 per month**.
+- Approximately **95% reduction** in events where equalization tanks exceeded their storage capacity.
+- Significant reduction in untreated emergency discharges.
+
+## Qualitative Results
+
+Reducing unnecessary hydraulic load improved overall WWTP operation.
+
+The biological sludge operated under more stable conditions because incoming wastewater contained a higher concentration of organic matter instead of being excessively diluted by clean water.
+
+Chemical consumption also decreased because pretreatment tanks processed a more representative wastewater composition.
+
+Operating with lower storage levels additionally reduced the probability of accidental overflows.
+
+## Organizational Results
+
+The project demonstrated that environmental improvements could be achieved without affecting production operations.
+
+Production managers actively supported the initiative because the improvements also became measurable sustainability achievements within their own facilities.
+
+---
+
+# 8. Executive Impact
+
+The project fundamentally changed the organization's approach to wastewater management.
+
+Rather than viewing the WWTP as the sole location for optimization, wastewater management became an integrated responsibility beginning at the point where each production process generated its effluent.
+
+This systems perspective improved environmental performance, reduced operating costs, increased treatment reliability, and delayed the need for future capacity expansion.
+
+---
+
+# 9. Executive Thinking
+
+This project reinforced one of my core engineering principles:
+
+**Before optimizing any process, verify that everything entering the process actually needs to be there.**
+
+Many operational problems originate not because a system performs poorly, but because it is processing material that should never have entered the system in the first place.
+
+By challenging this assumption, it became possible to improve cost, environmental performance, process stability, and operational reliability simultaneously.
+
+---
+
+# 10. Transferable Executive Knowledge
+
+Industrial optimization frequently focuses on improving the efficiency of existing assets.
+
+However, the greatest opportunities often lie upstream, where unnecessary material flows can be eliminated before consuming processing capacity.
+
+This principle is applicable not only to wastewater treatment, but also to manufacturing, logistics, supply chains, warehousing, production scheduling, maintenance systems, and information management.
+
+Engineering should first question the necessity of every process input before investing resources in optimizing the process itself.
+
+---
+
+# 11. ATS Competencies
+
+*To be developed as part of the Executive Career Portfolio competency mapping.*
